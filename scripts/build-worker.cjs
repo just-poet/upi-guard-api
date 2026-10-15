@@ -10,4 +10,4 @@ for(const name of ['upi-guard-extension.zip','upi-guard-windows.zip'])assets['/d
 const output='const ASSETS='+JSON.stringify(assets)+';\n'+fs.readFileSync(path.join(root,'site-worker/gateway.mjs'),'utf8');
 fs.mkdirSync(path.join(root,'dist/server'),{recursive:true});
 fs.writeFileSync(path.join(root,'dist/server/index.js'),output);
-console.log('Built private API gateway and app assets.');
+console.log('Built API gateway and app assets.');

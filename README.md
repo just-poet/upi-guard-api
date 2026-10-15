@@ -123,3 +123,7 @@ Evaluated on **5,912 untouched test transactions** (606 fraud cases, 5,306 legit
 Quick check accepts a message together with a link. The backend reads bounded public text/HTML, follows at most three redirects, validates and pins public DNS addresses, excludes cookies and credentials, and executes no JavaScript. Results disclose fetched/blocked/unavailable status, the final URL, and missing evidence. Inspection of signed-in or script-rendered content is limited.
 
 Build distributions with `python scripts/build-companions.py` or `npm run build:site`. Chrome/Edge extension source is under browser-extension/; the standard-library Windows/Tk helper is under windows-companion/. Website Settings provides downloads and one-time device pairing. Scoped device tokens expire in 30 days, are stored hashed on the server and encrypted with DPAPI in Windows, and can be revoked without exposing the OpenAI key. Extension storage is restricted to trusted extension contexts. All scans are user-invoked.
+
+## Hosted guest access
+
+The public website works without sign-in. A 256-bit random token in a Secure, HttpOnly, host-only cookie keeps each anonymous browser workspace separate for up to 30 days. The gateway derives its backend workspace ID using server-side HMAC; client-supplied workspace headers cannot select another visitor’s history. Existing signed-in identities keep their original workspace. Clearing browser cookies starts a fresh guest workspace. The backend key stays server-side, and cross-origin API requests are rejected.

@@ -1,6 +1,6 @@
 'use strict';
 
-// The hosted private gateway supplies backend credentials. No secrets enter this bundle.
+// The hosted gateway supplies backend credentials. No secrets enter this bundle.
 let backendConnection='connecting', backendMetrics=null, backendEvaluation=null, backendError='', mutationBusy=false;
 let demoClientId;
 try{demoClientId=localStorage.getItem('upi-guard-workspace')||crypto.randomUUID();localStorage.setItem('upi-guard-workspace',demoClientId);}catch{demoClientId=crypto.randomUUID();}
