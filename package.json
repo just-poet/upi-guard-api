@@ -1,0 +1,10 @@
+{
+  "name": "upi-guard-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A synthetic payment-awareness app and connected bank analyst prototype",
+  "scripts": {
+    "check": "node --check dist/app.js",
+    "start": "node server.cjs"
+  }
+}
