@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-10-15T13:21:23.194581",
+  "hardware": "Local CPU Prototype",
+  "dataset": {
+    "test_transactions": 5912,
+    "fraud_prevalence_pct": 10.25
+  },
+  "overall_metrics": {
+    "accuracy": 98.61,
+    "precision": 88.53,
+    "recall": 99.34,
+    "false_positive_rate": 1.47,
+    "f1_score": 0.9362,
+    "pr_auc": 0.9797,
+    "roc_auc": 0.9987,
+    "median_latency_ms": 161.0,
+    "p95_latency_ms": 188.5
+  },
+  "confusion_matrix": {
+    "true_positives": 602,
+    "false_positives": 78,
+    "false_negatives": 4,
+    "true_negatives": 5228
+  },
+  "ablation_study": {
+    "rules_only": {
+      "precision": 80.4,
+      "recall": 80.53,
+      "fpr": 2.24
+    },
+    "transaction_only": {
+      "precision": 91.49,
+      "recall": 97.52,
+      "fpr": 1.04
+    },
+    "full_hybrid": {
+      "precision": 88.53,
+      "recall": 99.34,
+      "fpr": 1.47
+    }
+  },
+  "per_scam_recall": {
+    "fake_kyc": 100.0,
+    "qr_substitution": 97.53,
+    "refund_deception": 100.0,
+    "remote_access_scam": 100.0
+  },
+  "multilingual_recall": {
+    "en": 99.4,
+    "hi": 99.34,
+    "hinglish": 99.17
+  },
+  "pattern_lab_adaptation": {
+    "original_recall": 100.0,
+    "candidate_recall": 100.0
+  }
+}

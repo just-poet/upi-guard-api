@@ -1,0 +1,29 @@
+{
+  "model_version": "v1.3-baseline",
+  "trained_at": "2026-10-15T13:11:46.281159",
+  "training_samples": 27588,
+  "validation_samples": 5912,
+  "threshold_warn": 0.21,
+  "threshold_verify": 0.28,
+  "feature_importances": {
+    "log_amount": 0.1108575927414165,
+    "amount_to_user_median_ratio": 0.061706902462795005,
+    "prior_recipient_count": 0.0012245950182744561,
+    "is_new_recipient": 0.0010366439721267513,
+    "time_of_day_deviation": 0.004727101261529731,
+    "recent_tx_velocity_1h": 0.0003773847729524668,
+    "recent_tx_velocity_24h": 0.0024133806403305257,
+    "device_novelty": 0.028206370592499145,
+    "interaction_time_seconds": 0.4416430916066752,
+    "screen_recording_active": 0.04603284398777171,
+    "merchant_ref_mismatch": 0.18068206538218556,
+    "merchant_ref_unavailable": 0.12109202756144273
+  },
+  "classes": [
+    "kyc_threat",
+    "purchase",
+    "receive_refund_reward",
+    "return_money",
+    "unknown_other"
+  ]
+}

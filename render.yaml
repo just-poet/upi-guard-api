@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: upi-guard-api
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: UPI_GUARD_REQUIRE_AUTH
+        value: "1"
+      - key: UPI_GUARD_API_KEY
+        sync: false
+      - key: UPI_GUARD_SIGNING_KEY
+        generateValue: true
+      - key: UPI_GUARD_DB_PATH
+        value: /data/events.db
+    disk:
+      name: upi-guard-events
+      mountPath: /data
+      sizeGB: 1

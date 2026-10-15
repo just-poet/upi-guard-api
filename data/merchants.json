@@ -1,0 +1,1775 @@
+[
+  {
+    "name": "Sharma Medical",
+    "category": "pharma",
+    "vpa": "sharmamedical@demo",
+    "proprietor": "Rajesh Sharma",
+    "aliases": [
+      "Rajesh Sharma",
+      "Sharma Pharmacy"
+    ]
+  },
+  {
+    "name": "Campus Canteen",
+    "category": "dining",
+    "vpa": "campuscanteen@demo",
+    "proprietor": "Sunil Shetty",
+    "aliases": [
+      "Sunil Shetty",
+      "Canteen Foods"
+    ]
+  },
+  {
+    "name": "Apollo Pharmacy",
+    "category": "pharma",
+    "vpa": "apollopharmacy@demo",
+    "proprietor": "Apollo Health Ltd",
+    "aliases": [
+      "Apollo Retail"
+    ]
+  },
+  {
+    "name": "Daily Fresh Grocery",
+    "category": "grocery",
+    "vpa": "dailyfresh@demo",
+    "proprietor": "Mohan Lal",
+    "aliases": [
+      "Mohan Lal Kirana",
+      "Daily Fresh Supermarket"
+    ]
+  },
+  {
+    "name": "Chai Point",
+    "category": "dining",
+    "vpa": "chaipoint@demo",
+    "proprietor": "Mountain Trail Foods",
+    "aliases": [
+      "Chai Point Express"
+    ]
+  },
+  {
+    "name": "Reliance Smart",
+    "category": "retail",
+    "vpa": "reliancesmart@demo",
+    "proprietor": "Reliance Retail Ltd",
+    "aliases": [
+      "Smart Bazaar"
+    ]
+  },
+  {
+    "name": "A-1 Electronics",
+    "category": "electronics",
+    "vpa": "a1electronics@demo",
+    "proprietor": "Harish Bajaj",
+    "aliases": [
+      "Harish Bajaj Electronics"
+    ]
+  },
+  {
+    "name": "City General Hospital",
+    "category": "healthcare",
+    "vpa": "cityhospital@demo",
+    "proprietor": "City Care Trust",
+    "aliases": [
+      "City Hospital Billing"
+    ]
+  },
+  {
+    "name": "Metro Station Kiosk",
+    "category": "transport",
+    "vpa": "metrokiosk@demo",
+    "proprietor": "DMRC Retail",
+    "aliases": [
+      "Metro SmartCard Recharge"
+    ]
+  },
+  {
+    "name": "Modern Book Depot",
+    "category": "retail",
+    "vpa": "modernbooks@demo",
+    "proprietor": "Alok Mathur",
+    "aliases": [
+      "Mathur Book Store"
+    ]
+  },
+  {
+    "name": "Saxena Cafe",
+    "category": "grocery",
+    "vpa": "saxenacafe11@demo",
+    "proprietor": "Amit Saxena",
+    "aliases": [
+      "Amit Saxena",
+      "Amit Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_011"
+  },
+  {
+    "name": "Chopra Depot",
+    "category": "utilities",
+    "vpa": "chopradepot12@demo",
+    "proprietor": "Amit Chopra",
+    "aliases": [
+      "Amit Chopra",
+      "Amit Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_012"
+  },
+  {
+    "name": "Patel Stationery",
+    "category": "retail",
+    "vpa": "patelstationery13@demo",
+    "proprietor": "Deepak Patel",
+    "aliases": [
+      "Deepak Patel",
+      "Deepak Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_013"
+  },
+  {
+    "name": "Pandey Bazaar",
+    "category": "dining",
+    "vpa": "pandeybazaar14@demo",
+    "proprietor": "Divya Pandey",
+    "aliases": [
+      "Divya Pandey",
+      "Divya Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_014"
+  },
+  {
+    "name": "Mehta Enterprises",
+    "category": "retail",
+    "vpa": "mehtaenterprises15@demo",
+    "proprietor": "Meera Mehta",
+    "aliases": [
+      "Meera Mehta",
+      "Meera Traders",
+      "Mehta Store"
+    ],
+    "merchant_id": "MERCH_015"
+  },
+  {
+    "name": "Bhatia Stationery",
+    "category": "utilities",
+    "vpa": "bhatiastationery16@demo",
+    "proprietor": "Pooja Bhatia",
+    "aliases": [
+      "Pooja Bhatia",
+      "Pooja Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_016"
+  },
+  {
+    "name": "Verma Enterprises",
+    "category": "electronics",
+    "vpa": "vermaenterprises17@demo",
+    "proprietor": "Neha Verma",
+    "aliases": [
+      "Neha Verma",
+      "Neha Traders",
+      "Verma Store"
+    ],
+    "merchant_id": "MERCH_017"
+  },
+  {
+    "name": "Iyer Pharmacy",
+    "category": "utilities",
+    "vpa": "iyerpharmacy18@demo",
+    "proprietor": "Aditya Iyer",
+    "aliases": [
+      "Aditya Iyer",
+      "Aditya Traders",
+      "Iyer Store"
+    ],
+    "merchant_id": "MERCH_018"
+  },
+  {
+    "name": "Reddy Stationery",
+    "category": "pharma",
+    "vpa": "reddystationery19@demo",
+    "proprietor": "Shreya Reddy",
+    "aliases": [
+      "Shreya Reddy",
+      "Shreya Traders",
+      "Reddy Store"
+    ],
+    "merchant_id": "MERCH_019"
+  },
+  {
+    "name": "Sharma Traders",
+    "category": "electronics",
+    "vpa": "sharmatraders20@demo",
+    "proprietor": "Ananya Sharma",
+    "aliases": [
+      "Ananya Sharma",
+      "Ananya Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_020"
+  },
+  {
+    "name": "Reddy Bazaar",
+    "category": "pharma",
+    "vpa": "reddybazaar21@demo",
+    "proprietor": "Rohan Reddy",
+    "aliases": [
+      "Rohan Reddy",
+      "Rohan Traders",
+      "Reddy Store"
+    ],
+    "merchant_id": "MERCH_021"
+  },
+  {
+    "name": "Sharma Store",
+    "category": "retail",
+    "vpa": "sharmastore22@demo",
+    "proprietor": "Isha Sharma",
+    "aliases": [
+      "Isha Sharma",
+      "Isha Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_022"
+  },
+  {
+    "name": "Singh Traders",
+    "category": "utilities",
+    "vpa": "singhtraders23@demo",
+    "proprietor": "Aarav Singh",
+    "aliases": [
+      "Aarav Singh",
+      "Aarav Traders",
+      "Singh Store"
+    ],
+    "merchant_id": "MERCH_023"
+  },
+  {
+    "name": "Chopra Cafe",
+    "category": "dining",
+    "vpa": "chopracafe24@demo",
+    "proprietor": "Swati Chopra",
+    "aliases": [
+      "Swati Chopra",
+      "Swati Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_024"
+  },
+  {
+    "name": "Chopra Bazaar",
+    "category": "electronics",
+    "vpa": "choprabazaar25@demo",
+    "proprietor": "Sneha Chopra",
+    "aliases": [
+      "Sneha Chopra",
+      "Sneha Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_025"
+  },
+  {
+    "name": "Sharma Depot",
+    "category": "dining",
+    "vpa": "sharmadepot26@demo",
+    "proprietor": "Kavya Sharma",
+    "aliases": [
+      "Kavya Sharma",
+      "Kavya Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_026"
+  },
+  {
+    "name": "Iyer Depot",
+    "category": "electronics",
+    "vpa": "iyerdepot27@demo",
+    "proprietor": "Shreya Iyer",
+    "aliases": [
+      "Shreya Iyer",
+      "Shreya Traders",
+      "Iyer Store"
+    ],
+    "merchant_id": "MERCH_027"
+  },
+  {
+    "name": "Das Traders",
+    "category": "utilities",
+    "vpa": "dastraders28@demo",
+    "proprietor": "Gaurav Das",
+    "aliases": [
+      "Gaurav Das",
+      "Gaurav Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_028"
+  },
+  {
+    "name": "Singh Store",
+    "category": "utilities",
+    "vpa": "singhstore29@demo",
+    "proprietor": "Pooja Singh",
+    "aliases": [
+      "Pooja Singh",
+      "Pooja Traders",
+      "Singh Store"
+    ],
+    "merchant_id": "MERCH_029"
+  },
+  {
+    "name": "Sharma Stationery",
+    "category": "dining",
+    "vpa": "sharmastationery30@demo",
+    "proprietor": "Arjun Sharma",
+    "aliases": [
+      "Arjun Sharma",
+      "Arjun Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_030"
+  },
+  {
+    "name": "Patel Depot",
+    "category": "services",
+    "vpa": "pateldepot31@demo",
+    "proprietor": "Naveen Patel",
+    "aliases": [
+      "Naveen Patel",
+      "Naveen Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_031"
+  },
+  {
+    "name": "Saxena Traders",
+    "category": "retail",
+    "vpa": "saxenatraders32@demo",
+    "proprietor": "Sanjay Saxena",
+    "aliases": [
+      "Sanjay Saxena",
+      "Sanjay Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_032"
+  },
+  {
+    "name": "Kulkarni Depot",
+    "category": "retail",
+    "vpa": "kulkarnidepot33@demo",
+    "proprietor": "Gaurav Kulkarni",
+    "aliases": [
+      "Gaurav Kulkarni",
+      "Gaurav Traders",
+      "Kulkarni Store"
+    ],
+    "merchant_id": "MERCH_033"
+  },
+  {
+    "name": "Nair Cafe",
+    "category": "retail",
+    "vpa": "naircafe34@demo",
+    "proprietor": "Naveen Nair",
+    "aliases": [
+      "Naveen Nair",
+      "Naveen Traders",
+      "Nair Store"
+    ],
+    "merchant_id": "MERCH_034"
+  },
+  {
+    "name": "Mehta Pharmacy",
+    "category": "utilities",
+    "vpa": "mehtapharmacy35@demo",
+    "proprietor": "Manish Mehta",
+    "aliases": [
+      "Manish Mehta",
+      "Manish Traders",
+      "Mehta Store"
+    ],
+    "merchant_id": "MERCH_035"
+  },
+  {
+    "name": "Deshmukh Enterprises",
+    "category": "services",
+    "vpa": "deshmukhenterprises36@demo",
+    "proprietor": "Swati Deshmukh",
+    "aliases": [
+      "Swati Deshmukh",
+      "Swati Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_036"
+  },
+  {
+    "name": "Mishra Pharmacy",
+    "category": "utilities",
+    "vpa": "mishrapharmacy37@demo",
+    "proprietor": "Isha Mishra",
+    "aliases": [
+      "Isha Mishra",
+      "Isha Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_037"
+  },
+  {
+    "name": "Chopra Depot",
+    "category": "utilities",
+    "vpa": "chopradepot38@demo",
+    "proprietor": "Gaurav Chopra",
+    "aliases": [
+      "Gaurav Chopra",
+      "Gaurav Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_038"
+  },
+  {
+    "name": "Aggarwal Store",
+    "category": "services",
+    "vpa": "aggarwalstore39@demo",
+    "proprietor": "Neha Aggarwal",
+    "aliases": [
+      "Neha Aggarwal",
+      "Neha Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_039"
+  },
+  {
+    "name": "Kapoor Stationery",
+    "category": "grocery",
+    "vpa": "kapoorstationery40@demo",
+    "proprietor": "Aarav Kapoor",
+    "aliases": [
+      "Aarav Kapoor",
+      "Aarav Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_040"
+  },
+  {
+    "name": "Patel Stationery",
+    "category": "retail",
+    "vpa": "patelstationery41@demo",
+    "proprietor": "Nisha Patel",
+    "aliases": [
+      "Nisha Patel",
+      "Nisha Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_041"
+  },
+  {
+    "name": "Kumar Cafe",
+    "category": "pharma",
+    "vpa": "kumarcafe42@demo",
+    "proprietor": "Manish Kumar",
+    "aliases": [
+      "Manish Kumar",
+      "Manish Traders",
+      "Kumar Store"
+    ],
+    "merchant_id": "MERCH_042"
+  },
+  {
+    "name": "Deshmukh Depot",
+    "category": "grocery",
+    "vpa": "deshmukhdepot43@demo",
+    "proprietor": "Ananya Deshmukh",
+    "aliases": [
+      "Ananya Deshmukh",
+      "Ananya Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_043"
+  },
+  {
+    "name": "Kumar Stationery",
+    "category": "retail",
+    "vpa": "kumarstationery44@demo",
+    "proprietor": "Simran Kumar",
+    "aliases": [
+      "Simran Kumar",
+      "Simran Traders",
+      "Kumar Store"
+    ],
+    "merchant_id": "MERCH_044"
+  },
+  {
+    "name": "Bhatia Enterprises",
+    "category": "dining",
+    "vpa": "bhatiaenterprises45@demo",
+    "proprietor": "Naveen Bhatia",
+    "aliases": [
+      "Naveen Bhatia",
+      "Naveen Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_045"
+  },
+  {
+    "name": "Bose Enterprises",
+    "category": "pharma",
+    "vpa": "boseenterprises46@demo",
+    "proprietor": "Nisha Bose",
+    "aliases": [
+      "Nisha Bose",
+      "Nisha Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_046"
+  },
+  {
+    "name": "Kapoor Enterprises",
+    "category": "retail",
+    "vpa": "kapoorenterprises47@demo",
+    "proprietor": "Nisha Kapoor",
+    "aliases": [
+      "Nisha Kapoor",
+      "Nisha Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_047"
+  },
+  {
+    "name": "Das Store",
+    "category": "retail",
+    "vpa": "dasstore48@demo",
+    "proprietor": "Simran Das",
+    "aliases": [
+      "Simran Das",
+      "Simran Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_048"
+  },
+  {
+    "name": "Saxena Cafe",
+    "category": "services",
+    "vpa": "saxenacafe49@demo",
+    "proprietor": "Sneha Saxena",
+    "aliases": [
+      "Sneha Saxena",
+      "Sneha Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_049"
+  },
+  {
+    "name": "Kapoor Stationery",
+    "category": "utilities",
+    "vpa": "kapoorstationery50@demo",
+    "proprietor": "Divya Kapoor",
+    "aliases": [
+      "Divya Kapoor",
+      "Divya Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_050"
+  },
+  {
+    "name": "Chopra Store",
+    "category": "electronics",
+    "vpa": "choprastore51@demo",
+    "proprietor": "Swati Chopra",
+    "aliases": [
+      "Swati Chopra",
+      "Swati Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_051"
+  },
+  {
+    "name": "Bose Stationery",
+    "category": "pharma",
+    "vpa": "bosestationery52@demo",
+    "proprietor": "Suresh Bose",
+    "aliases": [
+      "Suresh Bose",
+      "Suresh Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_052"
+  },
+  {
+    "name": "Pandey Enterprises",
+    "category": "dining",
+    "vpa": "pandeyenterprises53@demo",
+    "proprietor": "Preeti Pandey",
+    "aliases": [
+      "Preeti Pandey",
+      "Preeti Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_053"
+  },
+  {
+    "name": "Mishra Store",
+    "category": "grocery",
+    "vpa": "mishrastore54@demo",
+    "proprietor": "Aditya Mishra",
+    "aliases": [
+      "Aditya Mishra",
+      "Aditya Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_054"
+  },
+  {
+    "name": "Chopra Cafe",
+    "category": "electronics",
+    "vpa": "chopracafe55@demo",
+    "proprietor": "Swati Chopra",
+    "aliases": [
+      "Swati Chopra",
+      "Swati Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_055"
+  },
+  {
+    "name": "Pandey Store",
+    "category": "retail",
+    "vpa": "pandeystore56@demo",
+    "proprietor": "Preeti Pandey",
+    "aliases": [
+      "Preeti Pandey",
+      "Preeti Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_056"
+  },
+  {
+    "name": "Kulkarni Depot",
+    "category": "grocery",
+    "vpa": "kulkarnidepot57@demo",
+    "proprietor": "Arjun Kulkarni",
+    "aliases": [
+      "Arjun Kulkarni",
+      "Arjun Traders",
+      "Kulkarni Store"
+    ],
+    "merchant_id": "MERCH_057"
+  },
+  {
+    "name": "Iyer Pharmacy",
+    "category": "services",
+    "vpa": "iyerpharmacy58@demo",
+    "proprietor": "Aditya Iyer",
+    "aliases": [
+      "Aditya Iyer",
+      "Aditya Traders",
+      "Iyer Store"
+    ],
+    "merchant_id": "MERCH_058"
+  },
+  {
+    "name": "Sharma Depot",
+    "category": "electronics",
+    "vpa": "sharmadepot59@demo",
+    "proprietor": "Amit Sharma",
+    "aliases": [
+      "Amit Sharma",
+      "Amit Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_059"
+  },
+  {
+    "name": "Bose Pharmacy",
+    "category": "electronics",
+    "vpa": "bosepharmacy60@demo",
+    "proprietor": "Divya Bose",
+    "aliases": [
+      "Divya Bose",
+      "Divya Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_060"
+  },
+  {
+    "name": "Sharma Depot",
+    "category": "electronics",
+    "vpa": "sharmadepot61@demo",
+    "proprietor": "Swati Sharma",
+    "aliases": [
+      "Swati Sharma",
+      "Swati Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_061"
+  },
+  {
+    "name": "Kapoor Enterprises",
+    "category": "electronics",
+    "vpa": "kapoorenterprises62@demo",
+    "proprietor": "Rohan Kapoor",
+    "aliases": [
+      "Rohan Kapoor",
+      "Rohan Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_062"
+  },
+  {
+    "name": "Bose Traders",
+    "category": "utilities",
+    "vpa": "bosetraders63@demo",
+    "proprietor": "Naveen Bose",
+    "aliases": [
+      "Naveen Bose",
+      "Naveen Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_063"
+  },
+  {
+    "name": "Mehta Store",
+    "category": "services",
+    "vpa": "mehtastore64@demo",
+    "proprietor": "Nisha Mehta",
+    "aliases": [
+      "Nisha Mehta",
+      "Nisha Traders",
+      "Mehta Store"
+    ],
+    "merchant_id": "MERCH_064"
+  },
+  {
+    "name": "Bhatia Traders",
+    "category": "dining",
+    "vpa": "bhatiatraders65@demo",
+    "proprietor": "Isha Bhatia",
+    "aliases": [
+      "Isha Bhatia",
+      "Isha Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_065"
+  },
+  {
+    "name": "Singh Depot",
+    "category": "retail",
+    "vpa": "singhdepot66@demo",
+    "proprietor": "Kavya Singh",
+    "aliases": [
+      "Kavya Singh",
+      "Kavya Traders",
+      "Singh Store"
+    ],
+    "merchant_id": "MERCH_066"
+  },
+  {
+    "name": "Deshmukh Depot",
+    "category": "dining",
+    "vpa": "deshmukhdepot67@demo",
+    "proprietor": "Manish Deshmukh",
+    "aliases": [
+      "Manish Deshmukh",
+      "Manish Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_067"
+  },
+  {
+    "name": "Iyer Bazaar",
+    "category": "dining",
+    "vpa": "iyerbazaar68@demo",
+    "proprietor": "Meera Iyer",
+    "aliases": [
+      "Meera Iyer",
+      "Meera Traders",
+      "Iyer Store"
+    ],
+    "merchant_id": "MERCH_068"
+  },
+  {
+    "name": "Bose Traders",
+    "category": "electronics",
+    "vpa": "bosetraders69@demo",
+    "proprietor": "Deepak Bose",
+    "aliases": [
+      "Deepak Bose",
+      "Deepak Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_069"
+  },
+  {
+    "name": "Das Cafe",
+    "category": "services",
+    "vpa": "dascafe70@demo",
+    "proprietor": "Rahul Das",
+    "aliases": [
+      "Rahul Das",
+      "Rahul Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_070"
+  },
+  {
+    "name": "Pandey Pharmacy",
+    "category": "utilities",
+    "vpa": "pandeypharmacy71@demo",
+    "proprietor": "Manish Pandey",
+    "aliases": [
+      "Manish Pandey",
+      "Manish Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_071"
+  },
+  {
+    "name": "Gupta Cafe",
+    "category": "services",
+    "vpa": "guptacafe72@demo",
+    "proprietor": "Amit Gupta",
+    "aliases": [
+      "Amit Gupta",
+      "Amit Traders",
+      "Gupta Store"
+    ],
+    "merchant_id": "MERCH_072"
+  },
+  {
+    "name": "Mishra Traders",
+    "category": "grocery",
+    "vpa": "mishratraders73@demo",
+    "proprietor": "Sanjay Mishra",
+    "aliases": [
+      "Sanjay Mishra",
+      "Sanjay Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_073"
+  },
+  {
+    "name": "Pandey Bazaar",
+    "category": "retail",
+    "vpa": "pandeybazaar74@demo",
+    "proprietor": "Manish Pandey",
+    "aliases": [
+      "Manish Pandey",
+      "Manish Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_074"
+  },
+  {
+    "name": "Bhatia Depot",
+    "category": "services",
+    "vpa": "bhatiadepot75@demo",
+    "proprietor": "Gaurav Bhatia",
+    "aliases": [
+      "Gaurav Bhatia",
+      "Gaurav Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_075"
+  },
+  {
+    "name": "Das Store",
+    "category": "electronics",
+    "vpa": "dasstore76@demo",
+    "proprietor": "Deepak Das",
+    "aliases": [
+      "Deepak Das",
+      "Deepak Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_076"
+  },
+  {
+    "name": "Mehta Traders",
+    "category": "dining",
+    "vpa": "mehtatraders77@demo",
+    "proprietor": "Aditya Mehta",
+    "aliases": [
+      "Aditya Mehta",
+      "Aditya Traders",
+      "Mehta Store"
+    ],
+    "merchant_id": "MERCH_077"
+  },
+  {
+    "name": "Mishra Pharmacy",
+    "category": "retail",
+    "vpa": "mishrapharmacy78@demo",
+    "proprietor": "Ananya Mishra",
+    "aliases": [
+      "Ananya Mishra",
+      "Ananya Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_078"
+  },
+  {
+    "name": "Patel Cafe",
+    "category": "pharma",
+    "vpa": "patelcafe79@demo",
+    "proprietor": "Sunita Patel",
+    "aliases": [
+      "Sunita Patel",
+      "Sunita Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_079"
+  },
+  {
+    "name": "Nair Cafe",
+    "category": "utilities",
+    "vpa": "naircafe80@demo",
+    "proprietor": "Neha Nair",
+    "aliases": [
+      "Neha Nair",
+      "Neha Traders",
+      "Nair Store"
+    ],
+    "merchant_id": "MERCH_080"
+  },
+  {
+    "name": "Aggarwal Bazaar",
+    "category": "retail",
+    "vpa": "aggarwalbazaar81@demo",
+    "proprietor": "Divya Aggarwal",
+    "aliases": [
+      "Divya Aggarwal",
+      "Divya Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_081"
+  },
+  {
+    "name": "Sharma Pharmacy",
+    "category": "services",
+    "vpa": "sharmapharmacy82@demo",
+    "proprietor": "Naveen Sharma",
+    "aliases": [
+      "Naveen Sharma",
+      "Naveen Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_082"
+  },
+  {
+    "name": "Kumar Cafe",
+    "category": "services",
+    "vpa": "kumarcafe83@demo",
+    "proprietor": "Karan Kumar",
+    "aliases": [
+      "Karan Kumar",
+      "Karan Traders",
+      "Kumar Store"
+    ],
+    "merchant_id": "MERCH_083"
+  },
+  {
+    "name": "Malhotra Depot",
+    "category": "dining",
+    "vpa": "malhotradepot84@demo",
+    "proprietor": "Ananya Malhotra",
+    "aliases": [
+      "Ananya Malhotra",
+      "Ananya Traders",
+      "Malhotra Store"
+    ],
+    "merchant_id": "MERCH_084"
+  },
+  {
+    "name": "Aggarwal Store",
+    "category": "retail",
+    "vpa": "aggarwalstore85@demo",
+    "proprietor": "Manish Aggarwal",
+    "aliases": [
+      "Manish Aggarwal",
+      "Manish Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_085"
+  },
+  {
+    "name": "Gupta Stationery",
+    "category": "services",
+    "vpa": "guptastationery86@demo",
+    "proprietor": "Rajesh Gupta",
+    "aliases": [
+      "Rajesh Gupta",
+      "Rajesh Traders",
+      "Gupta Store"
+    ],
+    "merchant_id": "MERCH_086"
+  },
+  {
+    "name": "Kapoor Bazaar",
+    "category": "utilities",
+    "vpa": "kapoorbazaar87@demo",
+    "proprietor": "Suresh Kapoor",
+    "aliases": [
+      "Suresh Kapoor",
+      "Suresh Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_087"
+  },
+  {
+    "name": "Gupta Stationery",
+    "category": "pharma",
+    "vpa": "guptastationery88@demo",
+    "proprietor": "Amit Gupta",
+    "aliases": [
+      "Amit Gupta",
+      "Amit Traders",
+      "Gupta Store"
+    ],
+    "merchant_id": "MERCH_088"
+  },
+  {
+    "name": "Mishra Traders",
+    "category": "retail",
+    "vpa": "mishratraders89@demo",
+    "proprietor": "Kavya Mishra",
+    "aliases": [
+      "Kavya Mishra",
+      "Kavya Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_089"
+  },
+  {
+    "name": "Deshmukh Depot",
+    "category": "retail",
+    "vpa": "deshmukhdepot90@demo",
+    "proprietor": "Kavya Deshmukh",
+    "aliases": [
+      "Kavya Deshmukh",
+      "Kavya Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_090"
+  },
+  {
+    "name": "Das Cafe",
+    "category": "pharma",
+    "vpa": "dascafe91@demo",
+    "proprietor": "Rohan Das",
+    "aliases": [
+      "Rohan Das",
+      "Rohan Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_091"
+  },
+  {
+    "name": "Patel Cafe",
+    "category": "services",
+    "vpa": "patelcafe92@demo",
+    "proprietor": "Rahul Patel",
+    "aliases": [
+      "Rahul Patel",
+      "Rahul Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_092"
+  },
+  {
+    "name": "Joshi Traders",
+    "category": "dining",
+    "vpa": "joshitraders93@demo",
+    "proprietor": "Aarav Joshi",
+    "aliases": [
+      "Aarav Joshi",
+      "Aarav Traders",
+      "Joshi Store"
+    ],
+    "merchant_id": "MERCH_093"
+  },
+  {
+    "name": "Singh Store",
+    "category": "pharma",
+    "vpa": "singhstore94@demo",
+    "proprietor": "Rohan Singh",
+    "aliases": [
+      "Rohan Singh",
+      "Rohan Traders",
+      "Singh Store"
+    ],
+    "merchant_id": "MERCH_094"
+  },
+  {
+    "name": "Kulkarni Bazaar",
+    "category": "electronics",
+    "vpa": "kulkarnibazaar95@demo",
+    "proprietor": "Ritu Kulkarni",
+    "aliases": [
+      "Ritu Kulkarni",
+      "Ritu Traders",
+      "Kulkarni Store"
+    ],
+    "merchant_id": "MERCH_095"
+  },
+  {
+    "name": "Pandey Pharmacy",
+    "category": "pharma",
+    "vpa": "pandeypharmacy96@demo",
+    "proprietor": "Vikram Pandey",
+    "aliases": [
+      "Vikram Pandey",
+      "Vikram Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_096"
+  },
+  {
+    "name": "Deshmukh Traders",
+    "category": "retail",
+    "vpa": "deshmukhtraders97@demo",
+    "proprietor": "Kavya Deshmukh",
+    "aliases": [
+      "Kavya Deshmukh",
+      "Kavya Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_097"
+  },
+  {
+    "name": "Aggarwal Depot",
+    "category": "services",
+    "vpa": "aggarwaldepot98@demo",
+    "proprietor": "Varun Aggarwal",
+    "aliases": [
+      "Varun Aggarwal",
+      "Varun Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_098"
+  },
+  {
+    "name": "Chopra Pharmacy",
+    "category": "grocery",
+    "vpa": "choprapharmacy99@demo",
+    "proprietor": "Sneha Chopra",
+    "aliases": [
+      "Sneha Chopra",
+      "Sneha Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_099"
+  },
+  {
+    "name": "Joshi Cafe",
+    "category": "pharma",
+    "vpa": "joshicafe100@demo",
+    "proprietor": "Swati Joshi",
+    "aliases": [
+      "Swati Joshi",
+      "Swati Traders",
+      "Joshi Store"
+    ],
+    "merchant_id": "MERCH_100"
+  },
+  {
+    "name": "Saxena Stationery",
+    "category": "services",
+    "vpa": "saxenastationery101@demo",
+    "proprietor": "Divya Saxena",
+    "aliases": [
+      "Divya Saxena",
+      "Divya Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_101"
+  },
+  {
+    "name": "Sharma Bazaar",
+    "category": "utilities",
+    "vpa": "sharmabazaar102@demo",
+    "proprietor": "Aarav Sharma",
+    "aliases": [
+      "Aarav Sharma",
+      "Aarav Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_102"
+  },
+  {
+    "name": "Kumar Pharmacy",
+    "category": "utilities",
+    "vpa": "kumarpharmacy103@demo",
+    "proprietor": "Naveen Kumar",
+    "aliases": [
+      "Naveen Kumar",
+      "Naveen Traders",
+      "Kumar Store"
+    ],
+    "merchant_id": "MERCH_103"
+  },
+  {
+    "name": "Mishra Depot",
+    "category": "pharma",
+    "vpa": "mishradepot104@demo",
+    "proprietor": "Rohan Mishra",
+    "aliases": [
+      "Rohan Mishra",
+      "Rohan Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_104"
+  },
+  {
+    "name": "Malhotra Cafe",
+    "category": "pharma",
+    "vpa": "malhotracafe105@demo",
+    "proprietor": "Pooja Malhotra",
+    "aliases": [
+      "Pooja Malhotra",
+      "Pooja Traders",
+      "Malhotra Store"
+    ],
+    "merchant_id": "MERCH_105"
+  },
+  {
+    "name": "Deshmukh Bazaar",
+    "category": "electronics",
+    "vpa": "deshmukhbazaar106@demo",
+    "proprietor": "Priya Deshmukh",
+    "aliases": [
+      "Priya Deshmukh",
+      "Priya Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_106"
+  },
+  {
+    "name": "Kulkarni Cafe",
+    "category": "retail",
+    "vpa": "kulkarnicafe107@demo",
+    "proprietor": "Naveen Kulkarni",
+    "aliases": [
+      "Naveen Kulkarni",
+      "Naveen Traders",
+      "Kulkarni Store"
+    ],
+    "merchant_id": "MERCH_107"
+  },
+  {
+    "name": "Joshi Enterprises",
+    "category": "services",
+    "vpa": "joshienterprises108@demo",
+    "proprietor": "Amit Joshi",
+    "aliases": [
+      "Amit Joshi",
+      "Amit Traders",
+      "Joshi Store"
+    ],
+    "merchant_id": "MERCH_108"
+  },
+  {
+    "name": "Patel Store",
+    "category": "electronics",
+    "vpa": "patelstore109@demo",
+    "proprietor": "Aditya Patel",
+    "aliases": [
+      "Aditya Patel",
+      "Aditya Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_109"
+  },
+  {
+    "name": "Gupta Pharmacy",
+    "category": "utilities",
+    "vpa": "guptapharmacy110@demo",
+    "proprietor": "Vikram Gupta",
+    "aliases": [
+      "Vikram Gupta",
+      "Vikram Traders",
+      "Gupta Store"
+    ],
+    "merchant_id": "MERCH_110"
+  },
+  {
+    "name": "Sharma Depot",
+    "category": "grocery",
+    "vpa": "sharmadepot111@demo",
+    "proprietor": "Isha Sharma",
+    "aliases": [
+      "Isha Sharma",
+      "Isha Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_111"
+  },
+  {
+    "name": "Mishra Store",
+    "category": "grocery",
+    "vpa": "mishrastore112@demo",
+    "proprietor": "Vikram Mishra",
+    "aliases": [
+      "Vikram Mishra",
+      "Vikram Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_112"
+  },
+  {
+    "name": "Pandey Store",
+    "category": "pharma",
+    "vpa": "pandeystore113@demo",
+    "proprietor": "Shreya Pandey",
+    "aliases": [
+      "Shreya Pandey",
+      "Shreya Traders",
+      "Pandey Store"
+    ],
+    "merchant_id": "MERCH_113"
+  },
+  {
+    "name": "Verma Traders",
+    "category": "retail",
+    "vpa": "vermatraders114@demo",
+    "proprietor": "Sneha Verma",
+    "aliases": [
+      "Sneha Verma",
+      "Sneha Traders",
+      "Verma Store"
+    ],
+    "merchant_id": "MERCH_114"
+  },
+  {
+    "name": "Aggarwal Pharmacy",
+    "category": "retail",
+    "vpa": "aggarwalpharmacy115@demo",
+    "proprietor": "Rajesh Aggarwal",
+    "aliases": [
+      "Rajesh Aggarwal",
+      "Rajesh Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_115"
+  },
+  {
+    "name": "Das Stationery",
+    "category": "dining",
+    "vpa": "dasstationery116@demo",
+    "proprietor": "Rajesh Das",
+    "aliases": [
+      "Rajesh Das",
+      "Rajesh Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_116"
+  },
+  {
+    "name": "Das Store",
+    "category": "pharma",
+    "vpa": "dasstore117@demo",
+    "proprietor": "Simran Das",
+    "aliases": [
+      "Simran Das",
+      "Simran Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_117"
+  },
+  {
+    "name": "Mishra Store",
+    "category": "retail",
+    "vpa": "mishrastore118@demo",
+    "proprietor": "Karan Mishra",
+    "aliases": [
+      "Karan Mishra",
+      "Karan Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_118"
+  },
+  {
+    "name": "Bhatia Enterprises",
+    "category": "retail",
+    "vpa": "bhatiaenterprises119@demo",
+    "proprietor": "Vikram Bhatia",
+    "aliases": [
+      "Vikram Bhatia",
+      "Vikram Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_119"
+  },
+  {
+    "name": "Deshmukh Cafe",
+    "category": "retail",
+    "vpa": "deshmukhcafe120@demo",
+    "proprietor": "Sanjay Deshmukh",
+    "aliases": [
+      "Sanjay Deshmukh",
+      "Sanjay Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_120"
+  },
+  {
+    "name": "Saxena Cafe",
+    "category": "retail",
+    "vpa": "saxenacafe121@demo",
+    "proprietor": "Ritu Saxena",
+    "aliases": [
+      "Ritu Saxena",
+      "Ritu Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_121"
+  },
+  {
+    "name": "Malhotra Store",
+    "category": "dining",
+    "vpa": "malhotrastore122@demo",
+    "proprietor": "Naveen Malhotra",
+    "aliases": [
+      "Naveen Malhotra",
+      "Naveen Traders",
+      "Malhotra Store"
+    ],
+    "merchant_id": "MERCH_122"
+  },
+  {
+    "name": "Patel Pharmacy",
+    "category": "services",
+    "vpa": "patelpharmacy123@demo",
+    "proprietor": "Gaurav Patel",
+    "aliases": [
+      "Gaurav Patel",
+      "Gaurav Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_123"
+  },
+  {
+    "name": "Malhotra Cafe",
+    "category": "electronics",
+    "vpa": "malhotracafe124@demo",
+    "proprietor": "Rahul Malhotra",
+    "aliases": [
+      "Rahul Malhotra",
+      "Rahul Traders",
+      "Malhotra Store"
+    ],
+    "merchant_id": "MERCH_124"
+  },
+  {
+    "name": "Reddy Bazaar",
+    "category": "utilities",
+    "vpa": "reddybazaar125@demo",
+    "proprietor": "Neha Reddy",
+    "aliases": [
+      "Neha Reddy",
+      "Neha Traders",
+      "Reddy Store"
+    ],
+    "merchant_id": "MERCH_125"
+  },
+  {
+    "name": "Aggarwal Traders",
+    "category": "electronics",
+    "vpa": "aggarwaltraders126@demo",
+    "proprietor": "Aarav Aggarwal",
+    "aliases": [
+      "Aarav Aggarwal",
+      "Aarav Traders",
+      "Aggarwal Store"
+    ],
+    "merchant_id": "MERCH_126"
+  },
+  {
+    "name": "Nair Depot",
+    "category": "retail",
+    "vpa": "nairdepot127@demo",
+    "proprietor": "Pooja Nair",
+    "aliases": [
+      "Pooja Nair",
+      "Pooja Traders",
+      "Nair Store"
+    ],
+    "merchant_id": "MERCH_127"
+  },
+  {
+    "name": "Reddy Bazaar",
+    "category": "grocery",
+    "vpa": "reddybazaar128@demo",
+    "proprietor": "Sneha Reddy",
+    "aliases": [
+      "Sneha Reddy",
+      "Sneha Traders",
+      "Reddy Store"
+    ],
+    "merchant_id": "MERCH_128"
+  },
+  {
+    "name": "Das Traders",
+    "category": "utilities",
+    "vpa": "dastraders129@demo",
+    "proprietor": "Divya Das",
+    "aliases": [
+      "Divya Das",
+      "Divya Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_129"
+  },
+  {
+    "name": "Patel Cafe",
+    "category": "grocery",
+    "vpa": "patelcafe130@demo",
+    "proprietor": "Arjun Patel",
+    "aliases": [
+      "Arjun Patel",
+      "Arjun Traders",
+      "Patel Store"
+    ],
+    "merchant_id": "MERCH_130"
+  },
+  {
+    "name": "Sharma Store",
+    "category": "grocery",
+    "vpa": "sharmastore131@demo",
+    "proprietor": "Amit Sharma",
+    "aliases": [
+      "Amit Sharma",
+      "Amit Traders",
+      "Sharma Store"
+    ],
+    "merchant_id": "MERCH_131"
+  },
+  {
+    "name": "Kapoor Enterprises",
+    "category": "services",
+    "vpa": "kapoorenterprises132@demo",
+    "proprietor": "Shreya Kapoor",
+    "aliases": [
+      "Shreya Kapoor",
+      "Shreya Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_132"
+  },
+  {
+    "name": "Mishra Cafe",
+    "category": "retail",
+    "vpa": "mishracafe133@demo",
+    "proprietor": "Deepak Mishra",
+    "aliases": [
+      "Deepak Mishra",
+      "Deepak Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_133"
+  },
+  {
+    "name": "Gupta Stationery",
+    "category": "utilities",
+    "vpa": "guptastationery134@demo",
+    "proprietor": "Aditya Gupta",
+    "aliases": [
+      "Aditya Gupta",
+      "Aditya Traders",
+      "Gupta Store"
+    ],
+    "merchant_id": "MERCH_134"
+  },
+  {
+    "name": "Chopra Pharmacy",
+    "category": "grocery",
+    "vpa": "choprapharmacy135@demo",
+    "proprietor": "Swati Chopra",
+    "aliases": [
+      "Swati Chopra",
+      "Swati Traders",
+      "Chopra Store"
+    ],
+    "merchant_id": "MERCH_135"
+  },
+  {
+    "name": "Reddy Enterprises",
+    "category": "services",
+    "vpa": "reddyenterprises136@demo",
+    "proprietor": "Aditya Reddy",
+    "aliases": [
+      "Aditya Reddy",
+      "Aditya Traders",
+      "Reddy Store"
+    ],
+    "merchant_id": "MERCH_136"
+  },
+  {
+    "name": "Joshi Stationery",
+    "category": "dining",
+    "vpa": "joshistationery137@demo",
+    "proprietor": "Amit Joshi",
+    "aliases": [
+      "Amit Joshi",
+      "Amit Traders",
+      "Joshi Store"
+    ],
+    "merchant_id": "MERCH_137"
+  },
+  {
+    "name": "Saxena Cafe",
+    "category": "utilities",
+    "vpa": "saxenacafe138@demo",
+    "proprietor": "Swati Saxena",
+    "aliases": [
+      "Swati Saxena",
+      "Swati Traders",
+      "Saxena Store"
+    ],
+    "merchant_id": "MERCH_138"
+  },
+  {
+    "name": "Bhatia Bazaar",
+    "category": "services",
+    "vpa": "bhatiabazaar139@demo",
+    "proprietor": "Neha Bhatia",
+    "aliases": [
+      "Neha Bhatia",
+      "Neha Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_139"
+  },
+  {
+    "name": "Das Store",
+    "category": "grocery",
+    "vpa": "dasstore140@demo",
+    "proprietor": "Manish Das",
+    "aliases": [
+      "Manish Das",
+      "Manish Traders",
+      "Das Store"
+    ],
+    "merchant_id": "MERCH_140"
+  },
+  {
+    "name": "Kumar Pharmacy",
+    "category": "electronics",
+    "vpa": "kumarpharmacy141@demo",
+    "proprietor": "Manish Kumar",
+    "aliases": [
+      "Manish Kumar",
+      "Manish Traders",
+      "Kumar Store"
+    ],
+    "merchant_id": "MERCH_141"
+  },
+  {
+    "name": "Iyer Bazaar",
+    "category": "electronics",
+    "vpa": "iyerbazaar142@demo",
+    "proprietor": "Isha Iyer",
+    "aliases": [
+      "Isha Iyer",
+      "Isha Traders",
+      "Iyer Store"
+    ],
+    "merchant_id": "MERCH_142"
+  },
+  {
+    "name": "Mishra Bazaar",
+    "category": "utilities",
+    "vpa": "mishrabazaar143@demo",
+    "proprietor": "Rahul Mishra",
+    "aliases": [
+      "Rahul Mishra",
+      "Rahul Traders",
+      "Mishra Store"
+    ],
+    "merchant_id": "MERCH_143"
+  },
+  {
+    "name": "Bose Bazaar",
+    "category": "dining",
+    "vpa": "bosebazaar144@demo",
+    "proprietor": "Gaurav Bose",
+    "aliases": [
+      "Gaurav Bose",
+      "Gaurav Traders",
+      "Bose Store"
+    ],
+    "merchant_id": "MERCH_144"
+  },
+  {
+    "name": "Kulkarni Enterprises",
+    "category": "services",
+    "vpa": "kulkarnienterprises145@demo",
+    "proprietor": "Ritu Kulkarni",
+    "aliases": [
+      "Ritu Kulkarni",
+      "Ritu Traders",
+      "Kulkarni Store"
+    ],
+    "merchant_id": "MERCH_145"
+  },
+  {
+    "name": "Kapoor Enterprises",
+    "category": "services",
+    "vpa": "kapoorenterprises146@demo",
+    "proprietor": "Kavya Kapoor",
+    "aliases": [
+      "Kavya Kapoor",
+      "Kavya Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_146"
+  },
+  {
+    "name": "Singh Pharmacy",
+    "category": "services",
+    "vpa": "singhpharmacy147@demo",
+    "proprietor": "Sunita Singh",
+    "aliases": [
+      "Sunita Singh",
+      "Sunita Traders",
+      "Singh Store"
+    ],
+    "merchant_id": "MERCH_147"
+  },
+  {
+    "name": "Kapoor Enterprises",
+    "category": "retail",
+    "vpa": "kapoorenterprises148@demo",
+    "proprietor": "Rajesh Kapoor",
+    "aliases": [
+      "Rajesh Kapoor",
+      "Rajesh Traders",
+      "Kapoor Store"
+    ],
+    "merchant_id": "MERCH_148"
+  },
+  {
+    "name": "Deshmukh Store",
+    "category": "utilities",
+    "vpa": "deshmukhstore149@demo",
+    "proprietor": "Priya Deshmukh",
+    "aliases": [
+      "Priya Deshmukh",
+      "Priya Traders",
+      "Deshmukh Store"
+    ],
+    "merchant_id": "MERCH_149"
+  },
+  {
+    "name": "Bhatia Store",
+    "category": "grocery",
+    "vpa": "bhatiastore150@demo",
+    "proprietor": "Simran Bhatia",
+    "aliases": [
+      "Simran Bhatia",
+      "Simran Traders",
+      "Bhatia Store"
+    ],
+    "merchant_id": "MERCH_150"
+  }
+]

@@ -3,3 +3,13 @@ node_modules/
 *.tar.gz
 .qa-results/
 qa.cjs
+__pycache__/
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+dist/server/
+.vercel/

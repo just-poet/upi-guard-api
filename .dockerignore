@@ -1,0 +1,14 @@
+.git
+.env*
+__pycache__
+*.pyc
+*.db*
+*.png
+*.tar.gz
+node_modules
+data/*.csv
+data/users.json
+models/base_*
+dist/server
+qa.cjs
+test_*.py

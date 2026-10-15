@@ -1,0 +1,11 @@
+{
+  "generator_version": "1.0.0-cc6-ai02",
+  "random_seed": 42,
+  "total_transactions": 40000,
+  "train_size": 27588,
+  "val_size": 5912,
+  "test_size": 5912,
+  "held_out_job_scam_size": 588,
+  "fraud_prevalence_pct": 11.96,
+  "generated_at": "2026-10-15T13:05:27.068740"
+}

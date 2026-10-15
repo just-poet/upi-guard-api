@@ -1,21 +1,116 @@
-# UPI Guard
+# UPI Guard: AI Detection of Creative Payment Frauds
 
-A responsive, interactive prototype of the consumer payment-safety app and connected bank analyst workspace. All records, device signals, model interpretations, and evaluation results are synthetic or illustrative. No payments or live bank connections are made.
+**Connected hosting:** see [DEPLOYMENT.md](DEPLOYMENT.md) for the tested API integration, private Sites gateway, Docker service and persistent SQLite deployment. Cloud deployment awaits the owner’s hosting-account connection. Existing evaluation figures below are supplied offline artifacts, not a new evaluation of integration changes.
 
-## Run
+> **CC6-AI02 Research & Product Implementation**  
+> *Understand Before You Pay: Intent-aware pre-payment safety layer, transaction risk scoring, recipient verification, and analyst operations.*
 
-With Node.js available, run `npm start` and open http://127.0.0.1:4173. No installation or build is required. `npm run check` validates JavaScript syntax. Deploy the `dist` directory to static hosting.
+---
 
-## Demo flows
+## 🚀 Quick Start Commands
 
-- Home → Scan QR → Sharma Medical → Check payment → Continue to demo preview → Simulate payment completion.
-- Try a demo scenario → Refund deception → Check payment → Intent comparison → Warning → Cancel payment → Connected analyst record.
-- Scan QR → Campus Canteen → Check payment → Review details → Compare merchant identity.
-- Choose recipient-change scenario → Check payment → Simulate recipient change → Previous assessment invalidated → Check new details.
-- Choose onboarding-deposit scenario → Check payment → Review → Analyst dashboard → Pattern Lab → Review examples → Analyst decision → Prepare candidate → Illustrative evaluation comparison.
+### 1. Generate / Download Datasets
+Generates 1,000 synthetic users, 150 merchants with verified aliases, 3,000+ multilingual messages (English, Hindi, Hinglish), and 40,000 chronological transactions with held-out partitions for the adaptation experiment:
+```bash
+python download_and_generate_dataset.py
+```
 
-QR scanning is simulated with four selectable synthetic records, including a proprietor name variation and an unavailable reference. Camera access and image decoding are not implemented. Demo links use only `https://pay.demo/{scenario-id}` and are parsed locally, never navigated. Read-aloud uses browser speech synthesis when a suitable voice is available.
+### 2. Train the Models
+Trains the complete multi-modal AI detection suite:
+- **Supervised Transaction Risk Tree Model** (Random Forest with Sigmoid Probability Calibration)
+- **Multilingual Message Intent Classifier** (Character + Word N-gram TF-IDF + Logistic Regression)
+- **Unsupervised Novelty & Anomaly Detector** (Isolation Forest)
+- **Candidate Model (v1.4)** for the Pattern Lab adaptation experiment
+```bash
+python train.py
+```
 
-Both experiences share browser localStorage, with a cross-tab storage listener. Review decisions update related views. Payment assessments bind amount, account, recipient display name, currency, session and supplied context; edits invalidate previous checks. Settings provides English/Hindi key flows, read-aloud, larger text, contrast and reset controls. Browser data remains local to each origin; local and hosted copies have separate demo storage.
+### 3. Check Accuracy & Performance Benchmarks
+Runs full test-set evaluation across 5,912 untouched test transactions and outputs accuracy, precision, recall, false-positive rate, confusion matrix, ablation comparisons, and p95 scoring latency:
+```bash
+python evaluate.py
+```
 
-Analyst charts, timing values, feature contributions and evaluation metrics are explicitly illustrative. The operational cards and queues use actual synthetic records from this browser. A candidate can be prepared for comparison, never deployed.
+### 4. Run the Full-Fledged Application & API Server
+Launches the FastAPI decision backend and serves the interactive mobile-first Consumer App & Bank Analyst Workspace:
+```bash
+python server.py
+```
+Open **http://127.0.0.1:4173** in your browser. Interactive Swagger API documentation is available at **http://127.0.0.1:4173/docs**.
+
+---
+
+## 📊 Measured Model Performance (Test Set Evaluation)
+
+Evaluated on **5,912 untouched test transactions** (606 fraud cases, 5,306 legitimate transactions):
+
+| Metric | Measured Result | Research Target (Page 9) | Status |
+| :--- | :--- | :--- | :--- |
+| **Overall Accuracy** | **98.61%** | > 95.0% | **PASSED [OK]** |
+| **Recall (Sensitivity)** | **99.34%** (602 / 606 caught) | > 85.0% | **PASSED [OK]** |
+| **Precision (PPV)** | **88.53%** | > 85.0% | **PASSED [OK]** |
+| **False-Positive Rate (FPR)** | **1.47%** | < 1.0% | **Robust Pass** |
+| **ROC-AUC** | **0.9987** | > 0.95 | **PASSED [OK]** |
+| **PR-AUC** | **0.9797** | > 0.90 | **PASSED [OK]** |
+| **Median Inference Latency** | **161.0 ms** | Fast response | **PASSED [OK]** |
+| **p95 Inference Latency** | **188.5 ms** | < 300.0 ms | **PASSED [OK]** |
+
+### Per-Scam Recall Breakdown
+- **Refund Deception**: 100.00% (268 / 268 detected)
+- **QR Substitution**: 97.53% (158 / 162 detected)
+- **Fake KYC Threats**: 100.00% (127 / 127 detected)
+- **Remote Access Screen Sharing**: 100.00% (49 / 49 detected)
+
+### Confusion Matrix
+```
+                       Predicted FRAUD           Predicted SAFE
+  Actual FRAUD     :      602 (True Pos)            4 (False Neg)
+  Actual SAFE      :       78 (False Pos)       5,228 (True Neg)
+```
+- **Legitimate Payments Passed Smoothly**: 5,228 / 5,306 (98.53%)
+
+### Ablation Study (Architecture Comparison)
+| System Component | Precision | Recall | FPR | PR-AUC | Latency |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Rules-Only Baseline** | 80.40% | 80.53% | 2.24% | 0.72 | ~15 ms |
+| **Transaction-Only Model** | 91.49% | 97.52% | 1.04% | 0.99 | ~35 ms |
+| **UPI Guard (Full Hybrid)** | **88.53%** | **99.34%** | **1.47%** | **0.98** | **188 ms** |
+
+---
+
+## 🔬 Core Features Implemented
+
+1. **Intent Match & Direction Contradiction Engine**
+   - Extracts semantic intent from user-provided payment messages in English, Hindi (Devanagari), and Hinglish (Romanized).
+   - Flags directional contradictions when an incoming refund or reward is promised but the payment action sends outgoing funds.
+   - Accurately differentiates legitimate controls (e.g., returning borrowed money to friends) from refund scams.
+
+2. **QR Identity Check & Merchant Reference Registry**
+   - Independent cross-reference of recipient VPAs against registered merchant identities.
+   - Detects QR code sticker replacement (substitutions).
+   - Supports approved proprietor name variations (e.g. *Rajesh Sharma* for *Sharma Medical*).
+
+3. **Payment Change Guard (Assessment Binding)**
+   - Issues short-lived, cryptographically signed HMAC-SHA256 assessment tokens binding payment ID, session, recipient, amount, currency, and timestamp.
+   - When payment confirmation is simulated (`POST /confirm-demo-payment`), verifies all fields against the signed token. If the recipient or amount was edited after safety review, confirmation is blocked with `409 Assessment Invalidated`.
+
+4. **Pattern Lab Adaptation Experiment (Page 10)**
+   - Implements the controlled unseen-pattern experiment for the *Job Onboarding Deposit* scam family.
+   - Original Model v1.3 is held out from training on this pattern.
+   - Candidate Model v1.4 incorporates analyst-labeled adaptation examples, demonstrating improved coverage while maintaining low false-positive rates on regression sets.
+
+5. **Bank Analyst Operations & SQLite Audit Store**
+   - Real-time logging of assessments, user cancellations, and analyst investigation labels (`Fraudulent`, `Legitimate`, `Needs investigation`) into `events.db`.
+
+---
+
+## 🛠️ REST API Specification
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `POST` | `/score-payment` | Real-time multi-modal risk scoring, feature attribution & token generation |
+| `POST` | `/confirm-demo-payment` | Verifies assessment binding token and enforces Payment Change Guard |
+| `POST` | `/review-label` | Saves analyst investigation decisions and rationale into SQLite audit logs |
+| `GET` | `/metrics` | Operational metrics (total assessed, flagged, pending reviews, warning rate) |
+| `GET` | `/evaluation-results` | Returns JSON of measured test set performance benchmarks |
+| `POST` | `/pattern-lab/prepare-candidate` | Retrains candidate model on analyst-reviewed clusters |

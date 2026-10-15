@@ -1,0 +1,504 @@
+message_id,text,intent,language,extracted_amount
+MSG_00001,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹2000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,2000.0
+MSG_00003,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_00018,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_00019,Amazon product review task: Pay ₹99 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,99.0
+MSG_00020,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹3500 जमा करें।",job_deposit,hi,3500.0
+MSG_00023,Work from home task job: Rs 500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,500.0
+MSG_00024,Telegram VIP task: Deposit ₹180 refundable registration fee to start earning daily.,job_deposit,hinglish,180.0
+MSG_00027,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_00028,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_00033,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1200 to receive official offer letter.",job_deposit,en,1200.0
+MSG_00038,घर बैठे डेटा एंट्री कार्य: ₹10000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,10000.0
+MSG_00040,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹800 जमा करें।",job_deposit,hi,800.0
+MSG_00043,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_00046,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_00049,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_00050,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹10000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,10000.0
+MSG_00053,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_00054,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_00064,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1500 to receive official offer letter.",job_deposit,en,1500.0
+MSG_00074,Telegram data rating job: Deposit ₹180 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,180.0
+MSG_00091,Work-from-home typing job approved: Deposit refundable training fee ₹180 to unlock your high-paying portal access.,job_deposit,en,180.0
+MSG_00096,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_00129,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹450 pay karein.,job_deposit,hinglish,450.0
+MSG_00133,Telegram data rating job: Deposit ₹800 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,800.0
+MSG_00135,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_00141,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹800 जमा करें।",job_deposit,hi,800.0
+MSG_00142,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_00145,Work from home task job: Rs 1200 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1200.0
+MSG_00148,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_00150,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_00179,Amazon product review task: Pay ₹10000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,10000.0
+MSG_00186,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_00192,घर बैठे डेटा एंट्री कार्य: ₹1500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1500.0
+MSG_00193,Work from home task job: Rs 5000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,5000.0
+MSG_00199,Telegram VIP task: Deposit ₹3500 refundable registration fee to start earning daily.,job_deposit,hinglish,3500.0
+MSG_00208,Work-from-home typing job approved: Deposit refundable training fee ₹1500 to unlock your high-paying portal access.,job_deposit,en,1500.0
+MSG_00209,Work from home task job: Rs 1200 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1200.0
+MSG_00210,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹450 to receive official offer letter.",job_deposit,en,450.0
+MSG_00212,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_00214,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_00218,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹10000 जमा करें।",job_deposit,hi,10000.0
+MSG_00220,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_00224,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹450 pay karein.,job_deposit,hinglish,450.0
+MSG_00230,Telegram VIP task: Deposit ₹3500 refundable registration fee to start earning daily.,job_deposit,hinglish,3500.0
+MSG_00234,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_00240,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_00241,Telegram data rating job: Deposit ₹99 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,99.0
+MSG_00248,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_00257,Amazon product review task: Pay ₹450 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,450.0
+MSG_00260,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹99 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,99.0
+MSG_00264,घर बैठे डेटा एंट्री कार्य: ₹2000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,2000.0
+MSG_00269,घर बैठे डेटा एंट्री कार्य: ₹500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,500.0
+MSG_00276,Work-from-home typing job approved: Deposit refundable training fee ₹1200 to unlock your high-paying portal access.,job_deposit,en,1200.0
+MSG_00280,Telegram data rating job: Deposit ₹250 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,250.0
+MSG_00296,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_00298,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_00300,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_00302,Work-from-home typing job approved: Deposit refundable training fee ₹2000 to unlock your high-paying portal access.,job_deposit,en,2000.0
+MSG_00304,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹800 to receive official offer letter.",job_deposit,en,800.0
+MSG_00308,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_00327,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_00333,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹250 जमा करें।",job_deposit,hi,250.0
+MSG_00334,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹450 जमा करें।",job_deposit,hi,450.0
+MSG_00338,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_00342,घर बैठे डेटा एंट्री कार्य: ₹180 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,180.0
+MSG_00358,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_00366,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_00373,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_00377,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_00382,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_00403,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_00418,Amazon product review task: Pay ₹2000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,2000.0
+MSG_00424,Telegram data rating job: Deposit ₹1500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1500.0
+MSG_00433,Telegram VIP task: Deposit ₹180 refundable registration fee to start earning daily.,job_deposit,hinglish,180.0
+MSG_00436,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_00438,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1500.0
+MSG_00442,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹3500 pay karein.,job_deposit,hinglish,3500.0
+MSG_00450,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_00451,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_00456,Work from home task job: Rs 800 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,800.0
+MSG_00463,Telegram data rating job: Deposit ₹250 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,250.0
+MSG_00465,Telegram VIP task: Deposit ₹450 refundable registration fee to start earning daily.,job_deposit,hinglish,450.0
+MSG_00472,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_00488,घर बैठे डेटा एंट्री कार्य: ₹2000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,2000.0
+MSG_00500,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_00504,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹800 जमा करें।",job_deposit,hi,800.0
+MSG_00510,Work from home task job: Rs 1500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1500.0
+MSG_00516,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_00528,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹10000 जमा करें।",job_deposit,hi,10000.0
+MSG_00535,Telegram data rating job: Deposit ₹1500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1500.0
+MSG_00549,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹3500 जमा करें।",job_deposit,hi,3500.0
+MSG_00556,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹180 pay karein.,job_deposit,hinglish,180.0
+MSG_00566,घर बैठे डेटा एंट्री कार्य: ₹1200 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1200.0
+MSG_00573,Telegram VIP task: Deposit ₹450 refundable registration fee to start earning daily.,job_deposit,hinglish,450.0
+MSG_00576,Work-from-home typing job approved: Deposit refundable training fee ₹800 to unlock your high-paying portal access.,job_deposit,en,800.0
+MSG_00592,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_00596,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_00608,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹99 जमा करें।",job_deposit,hi,99.0
+MSG_00612,घर बैठे डेटा एंट्री कार्य: ₹2000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,2000.0
+MSG_00616,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_00622,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹180 to receive official offer letter.",job_deposit,en,180.0
+MSG_00623,Telegram data rating job: Deposit ₹180 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,180.0
+MSG_00626,Telegram VIP task: Deposit ₹180 refundable registration fee to start earning daily.,job_deposit,hinglish,180.0
+MSG_00643,Work from home task job: Rs 500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,500.0
+MSG_00644,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_00645,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_00646,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_00659,घर बैठे डेटा एंट्री कार्य: ₹180 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,180.0
+MSG_00672,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_00686,Telegram VIP task: Deposit ₹5000 refundable registration fee to start earning daily.,job_deposit,hinglish,5000.0
+MSG_00689,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹99 pay karein.,job_deposit,hinglish,99.0
+MSG_00691,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹5000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,5000.0
+MSG_00692,Work from home task job: Rs 500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,500.0
+MSG_00701,घर बैठे डेटा एंट्री कार्य: ₹1200 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1200.0
+MSG_00704,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹10000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,10000.0
+MSG_00707,Work from home task job: Rs 1500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1500.0
+MSG_00721,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_00730,Amazon product review task: Pay ₹5000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,5000.0
+MSG_00733,घर बैठे डेटा एंट्री कार्य: ₹500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,500.0
+MSG_00736,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_00739,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_00755,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_00758,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_00759,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹5000 जमा करें।",job_deposit,hi,5000.0
+MSG_00762,Work-from-home typing job approved: Deposit refundable training fee ₹250 to unlock your high-paying portal access.,job_deposit,en,250.0
+MSG_00763,घर बैठे डेटा एंट्री कार्य: ₹450 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,450.0
+MSG_00774,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_00777,Amazon product review task: Pay ₹500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,500.0
+MSG_00790,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_00792,घर बैठे डेटा एंट्री कार्य: ₹3500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,3500.0
+MSG_00793,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_00816,Work-from-home typing job approved: Deposit refundable training fee ₹800 to unlock your high-paying portal access.,job_deposit,en,800.0
+MSG_00817,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_00823,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_00826,Telegram VIP task: Deposit ₹10000 refundable registration fee to start earning daily.,job_deposit,hinglish,10000.0
+MSG_00827,Work-from-home typing job approved: Deposit refundable training fee ₹500 to unlock your high-paying portal access.,job_deposit,en,500.0
+MSG_00828,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_00834,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_00840,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_00844,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_00854,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_00855,Telegram VIP task: Deposit ₹5000 refundable registration fee to start earning daily.,job_deposit,hinglish,5000.0
+MSG_00857,Telegram data rating job: Deposit ₹1200 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1200.0
+MSG_00872,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹800 जमा करें।",job_deposit,hi,800.0
+MSG_00877,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹5000 जमा करें।",job_deposit,hi,5000.0
+MSG_00881,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_00887,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹180 pay karein.,job_deposit,hinglish,180.0
+MSG_00892,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_00896,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹250 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,250.0
+MSG_00905,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_00916,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_00917,Amazon product review task: Pay ₹180 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,180.0
+MSG_00929,घर बैठे डेटा एंट्री कार्य: ₹500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,500.0
+MSG_00932,Telegram data rating job: Deposit ₹180 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,180.0
+MSG_00933,Work from home task job: Rs 3500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,3500.0
+MSG_00939,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_00952,Work from home task job: Rs 10000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,10000.0
+MSG_00953,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_00955,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_00975,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_01000,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹10000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,10000.0
+MSG_01001,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_01003,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_01005,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_01022,Work-from-home typing job approved: Deposit refundable training fee ₹1200 to unlock your high-paying portal access.,job_deposit,en,1200.0
+MSG_01025,घर बैठे डेटा एंट्री कार्य: ₹10000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,10000.0
+MSG_01035,Amazon product review task: Pay ₹5000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,5000.0
+MSG_01036,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_01044,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_01045,Telegram VIP task: Deposit ₹10000 refundable registration fee to start earning daily.,job_deposit,hinglish,10000.0
+MSG_01057,Amazon product review task: Pay ₹99 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,99.0
+MSG_01058,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_01067,Telegram data rating job: Deposit ₹5000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,5000.0
+MSG_01073,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_01078,Telegram VIP task: Deposit ₹180 refundable registration fee to start earning daily.,job_deposit,hinglish,180.0
+MSG_01087,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_01093,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹450 pay karein.,job_deposit,hinglish,450.0
+MSG_01114,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_01119,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹180 जमा करें।",job_deposit,hi,180.0
+MSG_01127,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_01128,Work-from-home typing job approved: Deposit refundable training fee ₹5000 to unlock your high-paying portal access.,job_deposit,en,5000.0
+MSG_01131,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹99 जमा करें।",job_deposit,hi,99.0
+MSG_01133,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_01143,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_01149,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_01151,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_01153,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_01158,घर बैठे डेटा एंट्री कार्य: ₹450 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,450.0
+MSG_01159,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_01177,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_01194,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹180 जमा करें।",job_deposit,hi,180.0
+MSG_01197,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_01206,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹450 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,450.0
+MSG_01210,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_01217,Work-from-home typing job approved: Deposit refundable training fee ₹1200 to unlock your high-paying portal access.,job_deposit,en,1200.0
+MSG_01235,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1200 to receive official offer letter.",job_deposit,en,1200.0
+MSG_01242,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_01245,Work-from-home typing job approved: Deposit refundable training fee ₹450 to unlock your high-paying portal access.,job_deposit,en,450.0
+MSG_01248,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_01271,Telegram data rating job: Deposit ₹180 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,180.0
+MSG_01273,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_01280,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_01281,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_01293,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹450 to receive official offer letter.",job_deposit,en,450.0
+MSG_01297,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_01302,Telegram data rating job: Deposit ₹500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,500.0
+MSG_01305,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹500 जमा करें।",job_deposit,hi,500.0
+MSG_01306,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_01309,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_01323,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_01325,Telegram data rating job: Deposit ₹800 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,800.0
+MSG_01327,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_01330,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹250 to receive official offer letter.",job_deposit,en,250.0
+MSG_01335,Work-from-home typing job approved: Deposit refundable training fee ₹2000 to unlock your high-paying portal access.,job_deposit,en,2000.0
+MSG_01344,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_01356,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_01363,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_01379,घर बैठे डेटा एंट्री कार्य: ₹2000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,2000.0
+MSG_01385,घर बैठे डेटा एंट्री कार्य: ₹500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,500.0
+MSG_01391,Work-from-home typing job approved: Deposit refundable training fee ₹5000 to unlock your high-paying portal access.,job_deposit,en,5000.0
+MSG_01407,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1200 to receive official offer letter.",job_deposit,en,1200.0
+MSG_01410,Telegram data rating job: Deposit ₹180 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,180.0
+MSG_01411,Telegram VIP task: Deposit ₹450 refundable registration fee to start earning daily.,job_deposit,hinglish,450.0
+MSG_01416,Work from home task job: Rs 10000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,10000.0
+MSG_01418,Work-from-home typing job approved: Deposit refundable training fee ₹250 to unlock your high-paying portal access.,job_deposit,en,250.0
+MSG_01422,घर बैठे डेटा एंट्री कार्य: ₹3500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,3500.0
+MSG_01423,Telegram data rating job: Deposit ₹3500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,3500.0
+MSG_01425,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹99 pay karein.,job_deposit,hinglish,99.0
+MSG_01436,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_01441,Telegram data rating job: Deposit ₹250 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,250.0
+MSG_01442,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1500 pay karein.,job_deposit,hinglish,1500.0
+MSG_01448,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹99 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,99.0
+MSG_01450,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹10000 to receive official offer letter.",job_deposit,en,10000.0
+MSG_01456,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_01461,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_01463,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹250 to receive official offer letter.",job_deposit,en,250.0
+MSG_01469,घर बैठे डेटा एंट्री कार्य: ₹800 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,800.0
+MSG_01474,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_01479,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹3500 pay karein.,job_deposit,hinglish,3500.0
+MSG_01484,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_01490,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹10000 जमा करें।",job_deposit,hi,10000.0
+MSG_01493,Work-from-home typing job approved: Deposit refundable training fee ₹800 to unlock your high-paying portal access.,job_deposit,en,800.0
+MSG_01504,घर बैठे डेटा एंट्री कार्य: ₹1500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1500.0
+MSG_01528,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_01534,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_01536,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_01540,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_01548,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_01566,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1500.0
+MSG_01571,घर बैठे डेटा एंट्री कार्य: ₹1200 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1200.0
+MSG_01574,Work-from-home typing job approved: Deposit refundable training fee ₹5000 to unlock your high-paying portal access.,job_deposit,en,5000.0
+MSG_01577,Work-from-home typing job approved: Deposit refundable training fee ₹500 to unlock your high-paying portal access.,job_deposit,en,500.0
+MSG_01589,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹5000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,5000.0
+MSG_01592,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1500 pay karein.,job_deposit,hinglish,1500.0
+MSG_01596,Amazon product review task: Pay ₹800 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,800.0
+MSG_01612,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_01617,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹250 to receive official offer letter.",job_deposit,en,250.0
+MSG_01620,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹500 pay karein.,job_deposit,hinglish,500.0
+MSG_01621,Work-from-home typing job approved: Deposit refundable training fee ₹2000 to unlock your high-paying portal access.,job_deposit,en,2000.0
+MSG_01622,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_01628,घर बैठे डेटा एंट्री कार्य: ₹2000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,2000.0
+MSG_01650,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_01652,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹3500 जमा करें।",job_deposit,hi,3500.0
+MSG_01657,Work-from-home typing job approved: Deposit refundable training fee ₹1500 to unlock your high-paying portal access.,job_deposit,en,1500.0
+MSG_01660,Work-from-home typing job approved: Deposit refundable training fee ₹450 to unlock your high-paying portal access.,job_deposit,en,450.0
+MSG_01670,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹180 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,180.0
+MSG_01671,Amazon product review task: Pay ₹180 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,180.0
+MSG_01676,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_01677,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_01685,Telegram data rating job: Deposit ₹450 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,450.0
+MSG_01690,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_01693,Work-from-home typing job approved: Deposit refundable training fee ₹180 to unlock your high-paying portal access.,job_deposit,en,180.0
+MSG_01699,Work from home task job: Rs 5000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,5000.0
+MSG_01700,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_01711,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_01714,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹2000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,2000.0
+MSG_01722,Work from home task job: Rs 3500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,3500.0
+MSG_01723,Telegram VIP task: Deposit ₹1200 refundable registration fee to start earning daily.,job_deposit,hinglish,1200.0
+MSG_01725,घर बैठे डेटा एंट्री कार्य: ₹180 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,180.0
+MSG_01726,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_01727,घर बैठे डेटा एंट्री कार्य: ₹180 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,180.0
+MSG_01730,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹800 to receive official offer letter.",job_deposit,en,800.0
+MSG_01735,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_01737,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹10000 जमा करें।",job_deposit,hi,10000.0
+MSG_01738,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_01745,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_01750,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_01758,Telegram data rating job: Deposit ₹500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,500.0
+MSG_01764,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹99 to receive official offer letter.",job_deposit,en,99.0
+MSG_01766,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_01772,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1200 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1200.0
+MSG_01780,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1500 to receive official offer letter.",job_deposit,en,1500.0
+MSG_01789,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_01791,Amazon product review task: Pay ₹10000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,10000.0
+MSG_01795,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹500 जमा करें।",job_deposit,hi,500.0
+MSG_01805,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_01825,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹5000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,5000.0
+MSG_01829,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1500 to receive official offer letter.",job_deposit,en,1500.0
+MSG_01841,Work-from-home typing job approved: Deposit refundable training fee ₹250 to unlock your high-paying portal access.,job_deposit,en,250.0
+MSG_01842,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_01851,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_01870,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹450 pay karein.,job_deposit,hinglish,450.0
+MSG_01872,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_01879,Work-from-home typing job approved: Deposit refundable training fee ₹1200 to unlock your high-paying portal access.,job_deposit,en,1200.0
+MSG_01890,Amazon product review task: Pay ₹3500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,3500.0
+MSG_01896,Telegram VIP task: Deposit ₹99 refundable registration fee to start earning daily.,job_deposit,hinglish,99.0
+MSG_01898,Amazon product review task: Pay ₹10000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,10000.0
+MSG_01907,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_01921,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_01932,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_01935,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_01937,Amazon product review task: Pay ₹800 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,800.0
+MSG_01941,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹250 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,250.0
+MSG_01943,Amazon product review task: Pay ₹3500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,3500.0
+MSG_01944,Amazon product review task: Pay ₹450 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,450.0
+MSG_01946,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹500 to receive official offer letter.",job_deposit,en,500.0
+MSG_01948,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹450 जमा करें।",job_deposit,hi,450.0
+MSG_01957,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_01963,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹99 pay karein.,job_deposit,hinglish,99.0
+MSG_01965,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_01983,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_01987,Amazon product review task: Pay ₹180 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,180.0
+MSG_01988,Amazon product review task: Pay ₹450 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,450.0
+MSG_01991,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_01994,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_01996,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_02002,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹5000 जमा करें।",job_deposit,hi,5000.0
+MSG_02018,घर बैठे डेटा एंट्री कार्य: ₹450 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,450.0
+MSG_02022,Amazon product review task: Pay ₹250 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,250.0
+MSG_02027,घर बैठे डेटा एंट्री कार्य: ₹800 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,800.0
+MSG_02031,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹99 pay karein.,job_deposit,hinglish,99.0
+MSG_02038,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1500.0
+MSG_02041,Amazon product review task: Pay ₹500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,500.0
+MSG_02046,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_02048,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1500.0
+MSG_02051,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_02052,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_02067,Telegram data rating job: Deposit ₹5000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,5000.0
+MSG_02079,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_02082,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1500.0
+MSG_02093,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_02097,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_02099,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_02101,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_02103,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,500.0
+MSG_02106,Work-from-home typing job approved: Deposit refundable training fee ₹250 to unlock your high-paying portal access.,job_deposit,en,250.0
+MSG_02108,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_02116,Telegram VIP task: Deposit ₹1500 refundable registration fee to start earning daily.,job_deposit,hinglish,1500.0
+MSG_02120,Telegram VIP task: Deposit ₹3500 refundable registration fee to start earning daily.,job_deposit,hinglish,3500.0
+MSG_02138,Work-from-home typing job approved: Deposit refundable training fee ₹1500 to unlock your high-paying portal access.,job_deposit,en,1500.0
+MSG_02150,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_02152,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹500 जमा करें।",job_deposit,hi,500.0
+MSG_02157,Telegram VIP task: Deposit ₹3500 refundable registration fee to start earning daily.,job_deposit,hinglish,3500.0
+MSG_02159,Telegram data rating job: Deposit ₹3500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,3500.0
+MSG_02161,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹180 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,180.0
+MSG_02170,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹450 जमा करें।",job_deposit,hi,450.0
+MSG_02188,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹800 pay karein.,job_deposit,hinglish,800.0
+MSG_02196,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹250 to receive official offer letter.",job_deposit,en,250.0
+MSG_02197,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02199,Telegram data rating job: Deposit ₹5000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,5000.0
+MSG_02202,घर बैठे डेटा एंट्री कार्य: ₹1500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1500.0
+MSG_02209,Work-from-home typing job approved: Deposit refundable training fee ₹180 to unlock your high-paying portal access.,job_deposit,en,180.0
+MSG_02214,Amazon product review task: Pay ₹99 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,99.0
+MSG_02229,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1200 pay karein.,job_deposit,hinglish,1200.0
+MSG_02230,Telegram data rating job: Deposit ₹250 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,250.0
+MSG_02234,Amazon product review task: Pay ₹3500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,3500.0
+MSG_02250,Telegram data rating job: Deposit ₹800 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,800.0
+MSG_02258,Work-from-home typing job approved: Deposit refundable training fee ₹1200 to unlock your high-paying portal access.,job_deposit,en,1200.0
+MSG_02266,Amazon product review task: Pay ₹500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,500.0
+MSG_02268,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_02273,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹3500 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,3500.0
+MSG_02276,Telegram data rating job: Deposit ₹450 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,450.0
+MSG_02280,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_02285,Telegram data rating job: Deposit ₹1200 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1200.0
+MSG_02293,Work from home task job: Rs 1200 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1200.0
+MSG_02302,Telegram data rating job: Deposit ₹2000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,2000.0
+MSG_02307,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹2000 to receive official offer letter.",job_deposit,en,2000.0
+MSG_02310,Telegram VIP task: Deposit ₹1200 refundable registration fee to start earning daily.,job_deposit,hinglish,1200.0
+MSG_02312,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹5000 जमा करें।",job_deposit,hi,5000.0
+MSG_02313,Work-from-home typing job approved: Deposit refundable training fee ₹500 to unlock your high-paying portal access.,job_deposit,en,500.0
+MSG_02314,Telegram VIP task: Deposit ₹450 refundable registration fee to start earning daily.,job_deposit,hinglish,450.0
+MSG_02316,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_02317,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_02323,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_02326,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1200 pay karein.,job_deposit,hinglish,1200.0
+MSG_02327,घर बैठे डेटा एंट्री कार्य: ₹3500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,3500.0
+MSG_02329,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹5000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,5000.0
+MSG_02331,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_02333,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02334,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹3500 to receive official offer letter.",job_deposit,en,3500.0
+MSG_02342,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_02350,घर बैठे डेटा एंट्री कार्य: ₹250 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,250.0
+MSG_02359,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_02360,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹250 जमा करें।",job_deposit,hi,250.0
+MSG_02362,Amazon product review task: Pay ₹2000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,2000.0
+MSG_02370,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹180 pay karein.,job_deposit,hinglish,180.0
+MSG_02373,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_02374,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_02383,Work from home task job: Rs 1500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1500.0
+MSG_02384,Telegram VIP task: Deposit ₹1200 refundable registration fee to start earning daily.,job_deposit,hinglish,1200.0
+MSG_02392,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1500 जमा करें।",job_deposit,hi,1500.0
+MSG_02398,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_02399,Telegram VIP task: Deposit ₹5000 refundable registration fee to start earning daily.,job_deposit,hinglish,5000.0
+MSG_02400,Work-from-home typing job approved: Deposit refundable training fee ₹2000 to unlock your high-paying portal access.,job_deposit,en,2000.0
+MSG_02402,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02405,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹250 pay karein.,job_deposit,hinglish,250.0
+MSG_02406,Telegram data rating job: Deposit ₹500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,500.0
+MSG_02414,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_02415,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_02419,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹500 pay karein.,job_deposit,hinglish,500.0
+MSG_02428,Telegram data rating job: Deposit ₹5000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,5000.0
+MSG_02436,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_02437,Telegram data rating job: Deposit ₹1200 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1200.0
+MSG_02439,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_02445,Amazon product review task: Pay ₹10000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,10000.0
+MSG_02457,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_02460,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_02464,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_02473,Telegram data rating job: Deposit ₹99 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,99.0
+MSG_02482,Telegram data rating job: Deposit ₹1200 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,1200.0
+MSG_02483,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_02484,Work-from-home typing job approved: Deposit refundable training fee ₹250 to unlock your high-paying portal access.,job_deposit,en,250.0
+MSG_02487,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹1200 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,1200.0
+MSG_02492,घर बैठे डेटा एंट्री कार्य: ₹1200 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1200.0
+MSG_02509,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_02525,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹5000 pay karein.,job_deposit,hinglish,5000.0
+MSG_02527,Work from home task job: Rs 180 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,180.0
+MSG_02537,Telegram VIP task: Deposit ₹180 refundable registration fee to start earning daily.,job_deposit,hinglish,180.0
+MSG_02547,घर बैठे डेटा एंट्री कार्य: ₹1500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1500.0
+MSG_02566,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1200 to receive official offer letter.",job_deposit,en,1200.0
+MSG_02579,Work from home task job: Rs 10000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,10000.0
+MSG_02580,Amazon product review task: Pay ₹180 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,180.0
+MSG_02582,Amazon product review task: Pay ₹1200 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1200.0
+MSG_02583,Work from home task job: Rs 3500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,3500.0
+MSG_02585,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹10000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,10000.0
+MSG_02586,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹800 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,800.0
+MSG_02587,Amazon product review task: Pay ₹10000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,10000.0
+MSG_02594,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_02599,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹500 pay karein.,job_deposit,hinglish,500.0
+MSG_02600,Telegram VIP task: Deposit ₹99 refundable registration fee to start earning daily.,job_deposit,hinglish,99.0
+MSG_02611,Work from home task job: Rs 1200 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1200.0
+MSG_02617,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹1500 to receive official offer letter.",job_deposit,en,1500.0
+MSG_02632,Work-from-home typing job approved: Deposit refundable training fee ₹10000 to unlock your high-paying portal access.,job_deposit,en,10000.0
+MSG_02633,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹2000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,2000.0
+MSG_02639,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹3500 जमा करें।",job_deposit,hi,3500.0
+MSG_02644,Telegram data rating job: Deposit ₹3500 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,3500.0
+MSG_02651,Telegram VIP task: Deposit ₹5000 refundable registration fee to start earning daily.,job_deposit,hinglish,5000.0
+MSG_02664,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹99 pay karein.,job_deposit,hinglish,99.0
+MSG_02668,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_02675,घर बैठे डेटा एंट्री कार्य: ₹250 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,250.0
+MSG_02679,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_02681,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹800 pay karein.,job_deposit,hinglish,800.0
+MSG_02691,Work from home task job: Rs 250 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,250.0
+MSG_02693,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02695,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02701,Telegram VIP task: Deposit ₹500 refundable registration fee to start earning daily.,job_deposit,hinglish,500.0
+MSG_02703,Work from home task job: Rs 3500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,3500.0
+MSG_02708,Telegram VIP task: Deposit ₹1200 refundable registration fee to start earning daily.,job_deposit,hinglish,1200.0
+MSG_02710,Telegram data rating job: Deposit ₹800 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,800.0
+MSG_02713,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_02715,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹800 to receive official offer letter.",job_deposit,en,800.0
+MSG_02719,घर बैठे डेटा एंट्री कार्य: ₹800 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,800.0
+MSG_02727,घर बैठे डेटा एंट्री कार्य: ₹99 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,99.0
+MSG_02732,Work from home task job: Rs 99 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,99.0
+MSG_02737,Telegram VIP task: Deposit ₹10000 refundable registration fee to start earning daily.,job_deposit,hinglish,10000.0
+MSG_02738,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹5000 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,5000.0
+MSG_02739,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_02743,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹180 to receive official offer letter.",job_deposit,en,180.0
+MSG_02754,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹5000 to receive official offer letter.",job_deposit,en,5000.0
+MSG_02756,बधाई! पार्ट-टाइम जॉब के लिए आपका चयन हुआ है। ऑफर लेटर प्राप्त करने के लिए ₹450 की रिफंडेबल सिक्योरिटी डिपॉजिट जमा करें।,job_deposit,hi,450.0
+MSG_02758,"Congratulations! You are shortlisted for Part-Time Task Evaluator role (₹3,000/day). Pay refundable security deposit ₹500 to receive official offer letter.",job_deposit,en,500.0
+MSG_02759,Work from home task job: Rs 2000 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,2000.0
+MSG_02763,Amazon product review task: Pay ₹180 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,180.0
+MSG_02770,घर बैठे डेटा एंट्री कार्य: ₹800 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,800.0
+MSG_02771,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_02774,Amazon product review task: Pay ₹2000 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,2000.0
+MSG_02789,Work from home task job: Rs 450 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,450.0
+MSG_02794,Work-from-home typing job approved: Deposit refundable training fee ₹450 to unlock your high-paying portal access.,job_deposit,en,450.0
+MSG_02807,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹3500 pay karein.,job_deposit,hinglish,3500.0
+MSG_02821,घर बैठे डेटा एंट्री कार्य: ₹3500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,3500.0
+MSG_02823,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹1200 जमा करें।",job_deposit,hi,1200.0
+MSG_02840,Work-from-home typing job approved: Deposit refundable training fee ₹99 to unlock your high-paying portal access.,job_deposit,en,99.0
+MSG_02847,Amazon product review task: Pay ₹3500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,3500.0
+MSG_02850,Telegram VIP task: Deposit ₹3500 refundable registration fee to start earning daily.,job_deposit,hinglish,3500.0
+MSG_02864,घर बैठे डेटा एंट्री कार्य: ₹450 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,450.0
+MSG_02875,घर बैठे डेटा एंट्री कार्य: ₹800 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,800.0
+MSG_02876,Work-from-home typing job approved: Deposit refundable training fee ₹3500 to unlock your high-paying portal access.,job_deposit,en,3500.0
+MSG_02877,घर बैठे डेटा एंट्री कार्य: ₹1500 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,1500.0
+MSG_02883,Work from home task job: Rs 1500 refundable security jama karein aur daily payment paayein.,job_deposit,hinglish,1500.0
+MSG_02890,Telegram VIP task: Deposit ₹5000 refundable registration fee to start earning daily.,job_deposit,hinglish,5000.0
+MSG_02895,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1200 pay karein.,job_deposit,hinglish,1200.0
+MSG_02901,Amazon product review task: Pay ₹1500 refundable onboarding fee to activate daily VIP commission tasks.,job_deposit,en,1500.0
+MSG_02907,Telegram VIP task: Deposit ₹2000 refundable registration fee to start earning daily.,job_deposit,hinglish,2000.0
+MSG_02911,Telegram data rating job: Deposit ₹10000 refundable guarantee to receive contract and equipment allowance.,job_deposit,en,10000.0
+MSG_02915,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹10000 pay karein.,job_deposit,hinglish,10000.0
+MSG_02926,घर बैठे डेटा एंट्री कार्य: ₹5000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,5000.0
+MSG_02935,"टेलीग्राम टास्क जॉब: रोजाना ₹2,500 कमाएं। रिफंडेबल सुरक्षा राशि ₹2000 जमा करें।",job_deposit,hi,2000.0
+MSG_02944,Work-from-home typing job approved: Deposit refundable training fee ₹450 to unlock your high-paying portal access.,job_deposit,en,450.0
+MSG_02948,Telegram VIP task: Deposit ₹800 refundable registration fee to start earning daily.,job_deposit,hinglish,800.0
+MSG_02957,Telegram VIP task: Deposit ₹250 refundable registration fee to start earning daily.,job_deposit,hinglish,250.0
+MSG_02969,घर बैठे डेटा एंट्री कार्य: ₹10000 रिफंडेबल फीस जमा करके आज ही काम शुरू करें।,job_deposit,hi,10000.0
+MSG_02997,Congratulations! Part time data entry job confirm ho gaya hai. Offer letter pane ke liye refundable onboarding deposit ₹1200 pay karein.,job_deposit,hinglish,1200.0
+MSG_02998,Work-from-home typing job approved: Deposit refundable training fee ₹2000 to unlock your high-paying portal access.,job_deposit,en,2000.0
