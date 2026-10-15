@@ -18,6 +18,9 @@ try{
  assert.equal(forwarded.headers.get('x-api-key'),'gateway-test-key');
  assert.equal(forwarded.headers.get('x-demo-client-id').length,64);
  assert.notEqual(forwarded.headers.get('x-demo-client-id'),'spoofed-workspace');
+ assert.equal(forwarded.redirect,'manual');
+ globalThis.fetch=async()=>new Response(null,{status:302,headers:{Location:'https://unrelated.example'}});
+ assert.equal((await gateway.fetch(request,env)).status,502);
  const html=await(await gateway.fetch(new Request(base+'/'),env)).text();
  assert.ok(html.includes('api-client.js'));assert.ok(!html.includes(env.BACKEND_API_KEY));
  assert.equal((await gateway.fetch(new Request(base+'/not-an-api'),env)).status,404);

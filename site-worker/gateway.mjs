@@ -20,7 +20,8 @@ export default {
    try{
     const body=['POST','DELETE'].includes(request.method)?await request.text():undefined;
     if(body&&body.length>32768)return json({detail:'Request too large.'},413);
-    const response=await fetch(new URL(url.pathname,origin).href,{method:request.method,headers,body,redirect:'error',signal:controller.signal});
+    const response=await fetch(new URL(url.pathname,origin).href,{method:request.method,headers,body,redirect:'manual',signal:controller.signal});
+    if(response.status>=300&&response.status<400)return json({detail:'The payment service returned an unexpected redirect.'},502);
     const contentType=response.headers.get('Content-Type')||'';
     if(!contentType.includes('application/json'))return json({detail:'The payment service returned an unexpected response.'},502);
     return new Response(response.body,{status:response.status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
