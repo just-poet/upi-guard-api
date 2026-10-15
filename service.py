@@ -123,7 +123,7 @@ def as_record(row):
 
 @app.get('/health')
 def health():
-    return {'status':'ok','service':'upi-guard-api','model_version':metadata.get('model_version'),'demo':True}
+    return {'status':'ok','service':'upi-guard-api','model_version':metadata.get('model_version'),'demo':True,'ephemeral_storage':os.environ.get('UPI_GUARD_EPHEMERAL')=='1'}
 
 @app.post('/score-payment')
 def score_payment(req: ScoreRequest, client: str = Depends(client_id)):
@@ -184,7 +184,7 @@ def metrics(client: str = Depends(client_id)):
     results=[json.loads(r['result']) for r in rows]
     latency=[r['scoring_latency_ms'] for r in results]
     flagged=sum(r['risk_tier']!='low' for r in results)
-    return {'total_assessed':len(rows),'flagged_transactions':flagged,'pending_reviews':sum(r['review_status'] in ['Pending review','Needs investigation'] for r in rows),'warning_rate':f'{flagged/len(rows)*100:.1f}%' if rows else '0%','median_latency_ms':round(float(np.median(latency)),2) if latency else None,'p95_latency_ms':round(float(np.percentile(latency,95)),2) if latency else None,'labelled_fraudulent':sum(r['review_status']=='Fraudulent' for r in rows),'user_cancellations':sum(r['user_action']=='Cancelled' for r in rows)}
+    return {'total_assessed':len(rows),'flagged_transactions':flagged,'pending_reviews':sum(r['review_status'] in ['Pending review','Needs investigation'] for r in rows),'warning_rate':f'{flagged/len(rows)*100:.1f}%' if rows else '0%','median_latency_ms':round(float(np.median(latency)),2) if latency else None,'p95_latency_ms':round(float(np.percentile(latency,95)),2) if latency else None,'labelled_fraudulent':sum(r['review_status']=='Fraudulent' for r in rows),'user_cancellations':sum(r['user_action']=='Cancelled' for r in rows),'ephemeral_storage':os.environ.get('UPI_GUARD_EPHEMERAL')=='1'}
 
 @app.get('/evaluation-results')
 def evaluation():

@@ -8,16 +8,16 @@ Use Python 3.14 (matching the supplied model environment), install `requirements
 
 ## Hosted architecture
 
-Private existing Sites URL → authenticated Worker gateway → HTTPS FastAPI service → trained artifacts + persistent SQLite disk.
+Private existing Sites URL → authenticated Worker gateway → HTTPS FastAPI service → trained artifacts + ephemeral SQLite demo store.
 
-The Dockerfile preserves the supplied model artifacts and pins their library versions. `render.yaml` describes a **paid Starter service with a 1 GB persistent disk**; creating it requires the owner's Render connection and acceptance of provider charges. No paid resources have been created by preparing these files.
+The Dockerfile preserves the supplied model artifacts and pins their library versions. The owner selected **free hosting only**. `render.yaml` uses the free plan in Singapore with no paid disk. Demo history is ephemeral: it can reset on service restart, idle shutdown or redeployment. The UI discloses this limitation. No paid resources are created.
 
 1. Deploy this repository directory as a Docker web service on Render. Set the intended root directory if it is in a monorepo.
-2. Mount persistent storage at `/data`; run one service instance with one worker for SQLite. `UPI_GUARD_DB_PATH=/data/events.db` keeps new audit records across redeploys. The development `events.db` is not uploaded.
+2. Use `UPI_GUARD_DB_PATH=/tmp/upi-guard-events.db` and `UPI_GUARD_EPHEMERAL=1` for the selected free plan. Records do not survive restarts or redeploys. The development `events.db` is not uploaded. A persistent disk would require a separately approved paid plan.
 3. Configure a strong `UPI_GUARD_API_KEY` on the backend and `BACKEND_API_KEY` with the same value in Sites runtime settings. Keep both out of client code, Git, logs, and the hosting manifest. Set `UPI_GUARD_SIGNING_KEY` on the backend to a generated secret that survives restarts.
 4. Set Sites `BACKEND_URL` to the backend HTTPS origin. The backend health check is `/health`; the public response contains no credentials or transaction records.
 5. Remove the `static` field from `.openai/hosting.json` for the Worker deployment, run `node scripts/build-worker.cjs`, package the exact pushed commit, and update the existing private Site. Preserve its project ID and audience. The Worker reads authenticated Sites identity, derives a workspace ID, forwards only the supported API paths and adds the backend key server-side.
-6. Verify a payment assessment, cancellation, analyst decision, recipient/account mutation rejection, and persistence through backend restart before considering hosting complete.
+6. Verify a payment assessment, cancellation, analyst decision, recipient/account mutation rejection, and the free-storage disclosure before considering hosting complete.
 
 ## Data and model provenance
 
