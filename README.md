@@ -1,6 +1,6 @@
 # UPI Guard: AI Detection of Creative Payment Frauds
 
-**Connected hosting:** see [DEPLOYMENT.md](DEPLOYMENT.md) for the tested API integration, private Sites gateway, Docker service and persistent SQLite deployment. Cloud deployment awaits the owner’s hosting-account connection. Existing evaluation figures below are supplied offline artifacts, not a new evaluation of integration changes.
+**Connected hosting:** see [DEPLOYMENT.md](DEPLOYMENT.md) for the tested API integration, private Sites gateway, Docker service and persistent SQLite deployment. The backend uses the free Render service at https://upi-guard-api.onrender.com, behind the private Sites app at https://upi-guard-payment-safety.copperlemur.chatgpt.site. Free demo history can reset on service restart or redeployment. Existing evaluation figures below are supplied offline artifacts, not a new evaluation of integration changes.
 
 > **CC6-AI02 Research & Product Implementation**  
 > *Understand Before You Pay: Intent-aware pre-payment safety layer, transaction risk scoring, recipient verification, and analyst operations.*

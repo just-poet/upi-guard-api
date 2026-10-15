@@ -15,7 +15,19 @@ export default {
    const headers=new Headers({'Content-Type':'application/json','X-API-Key':env.BACKEND_API_KEY,'X-Demo-Client-ID':client});
    if(!['GET','POST','DELETE'].includes(request.method))return json({detail:'Method not allowed.'},405);
    if(Number(request.headers.get('Content-Length')||0)>32768)return json({detail:'Request too large.'},413);
-   try{const body=['POST','DELETE'].includes(request.method)?await request.text():undefined;if(body&&body.length>32768)return json({detail:'Request too large.'},413);const response=await fetch(new URL(url.pathname,origin),{method:request.method,headers,body,redirect:'error',signal:AbortSignal.timeout(25000)});const contentType=response.headers.get('Content-Type')||'';if(!contentType.includes('application/json'))return json({detail:'The payment service returned an unexpected response.'},502);return new Response(response.body,{status:response.status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});}catch{return json({detail:'The payment service is temporarily unavailable. Please try again.'},503);}
+   const controller=new AbortController();
+   const timeout=setTimeout(()=>controller.abort(),25000);
+   try{
+    const body=['POST','DELETE'].includes(request.method)?await request.text():undefined;
+    if(body&&body.length>32768)return json({detail:'Request too large.'},413);
+    const response=await fetch(new URL(url.pathname,origin).href,{method:request.method,headers,body,redirect:'error',signal:controller.signal});
+    const contentType=response.headers.get('Content-Type')||'';
+    if(!contentType.includes('application/json'))return json({detail:'The payment service returned an unexpected response.'},502);
+    return new Response(response.body,{status:response.status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+   }catch(error){
+    console.error('UPI Guard upstream request failed',String(error?.name||'Error'),String(error?.message||'Unknown failure'));
+    return json({detail:'The payment service is temporarily unavailable. Please try again.'},503);
+   }finally{clearTimeout(timeout);}
   }
   const asset=ASSETS[url.pathname];
   if(!asset)return new Response('Not found',{status:404});
