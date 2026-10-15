@@ -116,3 +116,10 @@ Evaluated on **5,912 untouched test transactions** (606 fraud cases, 5,306 legit
 | `GET` | `/metrics` | Operational metrics (total assessed, flagged, pending reviews, warning rate) |
 | `GET` | `/evaluation-results` | Returns JSON of measured test set performance benchmarks |
 | `POST` | `/pattern-lab/prepare-candidate` | Retrains candidate model on analyst-reviewed clusters |
+
+
+## Beside-you clients and public link inspection
+
+Quick check accepts a message together with a link. The backend reads bounded public text/HTML, follows at most three redirects, validates and pins public DNS addresses, excludes cookies and credentials, and executes no JavaScript. Results disclose fetched/blocked/unavailable status, the final URL, and missing evidence. Inspection of signed-in or script-rendered content is limited.
+
+Build distributions with `python scripts/build-companions.py` or `npm run build:site`. Chrome/Edge extension source is under browser-extension/; the standard-library Windows/Tk helper is under windows-companion/. Website Settings provides downloads and one-time device pairing. Scoped device tokens expire in 30 days, are stored hashed on the server and encrypted with DPAPI in Windows, and can be revoked without exposing the OpenAI key. Extension storage is restricted to trusted extension contexts. All scans are user-invoked.

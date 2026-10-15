@@ -10,10 +10,11 @@
     "server": "python server.py",
     "start": "python server.py",
     "start:node": "node server.cjs",
-    "check": "node --check dist/app.js && node --check dist/api-client.js && node --check dist/tools.js",
+    "check": "node --check dist/app.js && node --check dist/api-client.js && node --check dist/tools.js && node --check dist/companion.js && node --check browser-extension/background.js && node --check browser-extension/content.js && node --check browser-extension/popup.js",
     "build:site": "node scripts/build-worker.cjs",
-    "test:backend": "python -m unittest test_backend -v",
+    "test:backend": "python -m unittest test_backend test_content_checks test_companion -v",
     "test:gateway": "node test-gateway.mjs",
-    "test:qa": "node qa-connected.cjs"
+    "test:qa": "node qa-connected.cjs",
+    "test:extension": "node test-extension.cjs"
   }
 }

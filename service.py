@@ -57,21 +57,24 @@ with connection() as db:
         request_hash TEXT NOT NULL, created_at INTEGER NOT NULL)""")
     db.execute('CREATE INDEX IF NOT EXISTS api_content_client ON api_content_checks(client_id, created_at)')
     db.execute('CREATE TABLE IF NOT EXISTS api_ai_requests (client_id TEXT NOT NULL, created_at INTEGER NOT NULL)')
+    db.execute('CREATE TABLE IF NOT EXISTS api_pair_codes (code_hash TEXT PRIMARY KEY, client_id TEXT NOT NULL, expires_at INTEGER NOT NULL)')
+    db.execute('CREATE TABLE IF NOT EXISTS api_devices (id TEXT PRIMARY KEY, token_hash TEXT UNIQUE NOT NULL, client_id TEXT NOT NULL, name TEXT NOT NULL, expires_at INTEGER NOT NULL, created_at INTEGER NOT NULL)')
+    db.execute('CREATE TABLE IF NOT EXISTS api_pair_attempts (source TEXT NOT NULL, created_at INTEGER NOT NULL)')
 
 tx, intent, novelty, metadata = load_pipeline(str(ROOT / 'models'))
 engine = HybridDecisionEngine(tx, intent, novelty, threshold_warn=metadata.get('threshold_warn', .5))
 with (ROOT / 'data' / 'merchants.json').open(encoding='utf-8') as f:
     merchants = {m['vpa']:m for m in json.load(f)}
 
-app = FastAPI(title="UPI Guard Decision API", version="1.5.0", description="Message analysis, QR inspection, and payment risk checks. No payments are executed.")
+app = FastAPI(title="UPI Guard Decision API", version="1.6.0", description="Message and public-link analysis, connected companions, QR inspection, and payment risk checks. No payments are executed.")
 origins = os.environ.get('UPI_GUARD_ALLOWED_ORIGINS', 'http://127.0.0.1:4173,http://localhost:4173,https://upi-guard-payment-safety.copperlemur.chatgpt.site').split(',')
-app.add_middleware(CORSMiddleware, allow_origins=[x.strip() for x in origins if x.strip()], allow_methods=['GET','POST','DELETE'], allow_headers=['Content-Type','X-Demo-Client-ID','X-API-Key'], allow_credentials=False)
+app.add_middleware(CORSMiddleware, allow_origins=[x.strip() for x in origins if x.strip()], allow_origin_regex=r'^chrome-extension://[a-p]{32}$', allow_methods=['GET','POST','DELETE'], allow_headers=['Content-Type','X-Demo-Client-ID','X-API-Key','Authorization'], allow_credentials=False)
 
 @app.middleware('http')
 async def guard(request: Request, call_next):
     from fastapi.responses import JSONResponse
     # A hosted deployment sets this shared key; the private Sites gateway supplies it.
-    if API_KEY and request.url.path not in ['/health'] and request.method != 'OPTIONS':
+    if API_KEY and request.url.path not in ['/health','/companion/redeem','/companion/analyze','/companion/disconnect'] and request.method != 'OPTIONS':
         if not secrets.compare_digest(request.headers.get('x-api-key',''), API_KEY):
             return JSONResponse({'detail':'Backend authentication required.'}, status_code=401)
     response = await call_next(request)
@@ -121,6 +124,76 @@ class ActionRequest(BaseModel):
     assessment_id: str
     user_action: Literal['Cancelled','Reviewed','Recheck required']
 
+class PairRedeem(BaseModel):
+    code: str = Field(min_length=8,max_length=24)
+    name: str = Field(default='UPI Guard companion',min_length=1,max_length=80)
+
+class DeviceRevoke(BaseModel):
+    device_id: str = Field(min_length=1,max_length=80)
+
+def credential_hash(value):
+    return hashlib.sha256(value.encode()).hexdigest()
+
+def device_client(authorization: str = Header(default='')):
+    if not authorization.startswith('Bearer '):
+        raise HTTPException(401,'Connect this companion from website Settings first.')
+    with connection() as db:
+        row=db.execute('SELECT * FROM api_devices WHERE token_hash=? AND expires_at>?',(credential_hash(authorization[7:]),int(time.time()))).fetchone()
+    if not row:
+        raise HTTPException(401,'The companion connection expired or was revoked. Reconnect from website Settings.')
+    return row
+
+@app.post('/companion/pair')
+def create_pair(client: str = Depends(client_id)):
+    code=secrets.token_hex(6).upper();expires=int(time.time())+600
+    with connection() as db:
+        db.execute('DELETE FROM api_pair_codes WHERE client_id=? OR expires_at<?',(client,int(time.time())))
+        db.execute('INSERT INTO api_pair_codes VALUES (?,?,?)',(credential_hash(code),client,expires))
+    return {'code':code,'expires_at':expires,'expires_in_seconds':600,'notice':'One use only. Enter this code only in your UPI Guard extension or Windows companion.'}
+
+@app.post('/companion/redeem')
+def redeem_pair(req: PairRedeem, request: Request):
+    now=int(time.time());source=credential_hash(request.client.host if request.client else 'unknown')
+    with connection() as db:
+        db.execute('DELETE FROM api_pair_attempts WHERE created_at<?',(now-3600,))
+        count=db.execute('SELECT COUNT(*) FROM api_pair_attempts WHERE source=? AND created_at>?',(source,now-600)).fetchone()[0]
+        if count>=15:
+            raise HTTPException(429,'Too many connection attempts. Retry in ten minutes.')
+        db.execute('INSERT INTO api_pair_attempts VALUES (?,?)',(source,now))
+    code=req.code.replace(' ','').replace('-','').upper()
+    with connection() as db:
+        # Consume the code atomically; concurrent redemption cannot create two devices.
+        row=db.execute('DELETE FROM api_pair_codes WHERE code_hash=? AND expires_at>? RETURNING client_id',(credential_hash(code),now)).fetchone()
+        if not row: raise HTTPException(401,'Invalid, expired or already-used connection code.')
+        device_id='device-'+uuid.uuid4().hex;token=secrets.token_urlsafe(40);expires=now+30*86400
+        db.execute('DELETE FROM api_devices WHERE expires_at<?',(now,))
+        existing=db.execute('SELECT COUNT(*) FROM api_devices WHERE client_id=?',(row['client_id'],)).fetchone()[0]
+        if existing>=10: raise HTTPException(409,'Disconnect an old companion from website Settings before adding another.')
+        db.execute('INSERT INTO api_devices VALUES (?,?,?,?,?,?)',(device_id,credential_hash(token),row['client_id'],req.name,expires,now))
+    return {'token':token,'device_id':device_id,'expires_at':expires,'name':req.name}
+
+@app.get('/companion/devices')
+def devices(client: str = Depends(client_id)):
+    with connection() as db:
+        rows=db.execute('SELECT id,name,expires_at,created_at FROM api_devices WHERE client_id=? AND expires_at>? ORDER BY created_at DESC',(client,int(time.time()))).fetchall()
+    return {'devices':[dict(r) for r in rows]}
+
+@app.post('/companion/revoke')
+def revoke_device(req: DeviceRevoke,client: str = Depends(client_id)):
+    with connection() as db:
+        row=db.execute('DELETE FROM api_devices WHERE id=? AND client_id=? RETURNING id',(req.device_id,client)).fetchone()
+        if not row: raise HTTPException(404,'Connected companion not found.')
+    return {'status':'DISCONNECTED'}
+
+@app.post('/companion/disconnect')
+def disconnect_device(device=Depends(device_client)):
+    with connection() as db: db.execute('DELETE FROM api_devices WHERE id=?',(device['id'],))
+    return {'status':'DISCONNECTED'}
+
+@app.post('/companion/analyze')
+async def companion_analyze(req: MessageRequest,device=Depends(device_client)):
+    return await message_check(req,device['client_id'])
+
 def get_row(db, assessment_id, client):
     row = db.execute('SELECT * FROM api_assessments WHERE id=? AND client_id=?', (assessment_id,client)).fetchone()
     if row is None:
@@ -148,10 +221,11 @@ def save_content(req, result, client):
 @app.post('/analyze-message')
 async def message_check(req: MessageRequest, client: str = Depends(client_id)):
     now=int(time.time()); digest=hashlib.sha256(req.model_dump_json().encode()).hexdigest()
+    cache_seconds=60 if req.inspect_link else 600
     with connection() as db:
-        cached=db.execute('SELECT * FROM api_content_checks WHERE client_id=? AND kind=? AND request_hash=? AND created_at>? ORDER BY created_at DESC LIMIT 1',(client,'message',digest,now-600)).fetchone()
+        cached=db.execute('SELECT * FROM api_content_checks WHERE client_id=? AND kind=? AND request_hash=? AND created_at>? ORDER BY created_at DESC LIMIT 1',(client,'message',digest,now-cache_seconds)).fetchone()
         if cached:
-            result=json.loads(cached['result']); result['record']=content_record(cached); result['cached']=True
+            result=json.loads(cached['result']); result['record']=content_record(cached); result['cached']=True;result['cached_age_seconds']=now-cached['created_at']
             return result
         recent=db.execute('SELECT COUNT(*) FROM api_ai_requests WHERE client_id=? AND created_at>?',(client,now-60)).fetchone()[0]
         daily=db.execute('SELECT COUNT(*) FROM api_ai_requests WHERE client_id=? AND created_at>?',(client,now-86400)).fetchone()[0]
@@ -169,7 +243,7 @@ def qr_check(req: QRRequest, client: str = Depends(client_id)):
 
 @app.get('/health')
 def health():
-    return {'status':'ok','service':'upi-guard-api','model_version':metadata.get('model_version'),'demo':True,'message_analysis_configured':bool(os.environ.get('OPENAI_API_KEY')),'version':'1.5.0','ephemeral_storage':os.environ.get('UPI_GUARD_EPHEMERAL')=='1'}
+    return {'status':'ok','service':'upi-guard-api','model_version':metadata.get('model_version'),'demo':True,'message_analysis_configured':bool(os.environ.get('OPENAI_API_KEY')),'version':'1.6.0','public_link_inspection':True,'companion_api':True,'ephemeral_storage':os.environ.get('UPI_GUARD_EPHEMERAL')=='1'}
 
 @app.post('/score-payment')
 def score_payment(req: ScoreRequest, client: str = Depends(client_id)):
@@ -289,6 +363,6 @@ def index():
 @app.get('/{filename:path}')
 def static(filename: str):
     root=(ROOT/'dist').resolve(); file=(root/filename).resolve()
-    if not file.is_relative_to(root) or not file.is_file() or file.suffix not in ['.html','.css','.js','.svg','.png','.json'] or 'server' in file.relative_to(root).parts:
+    if not file.is_relative_to(root) or not file.is_file() or file.suffix not in ['.html','.css','.js','.svg','.png','.json','.zip'] or 'server' in file.relative_to(root).parts:
         raise HTTPException(404,'Not found')
     return FileResponse(file)

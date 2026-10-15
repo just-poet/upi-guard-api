@@ -31,3 +31,8 @@ The legacy development database uses a different schema and is left intact. Conn
 ## Message and QR checks
 
 The backend requires server-only OPENAI_API_KEY and optional OPENAI_MODEL (default gpt-4.1-mini). The deployed secret is configured through Render environment settings; there is no committed/local key file. POST /analyze-message uses the OpenAI Responses API with store=false and validated structured output. It limits attempts per workspace and returns explicit quota, timeout and configuration errors. POST /analyze-qr inspects decoded text without fetching any embedded URL. Camera/upload decoding runs locally with jsQR 1.4.0; its Apache-2.0 license is included under dist/vendor/. New content records participate in history, review labels, metrics, exports and workspace reset. Raw downloaded datasets are excluded from source publication.
+
+
+## Connected companions
+
+Version 1.6 adds /companion/pair, /companion/devices and /companion/revoke behind the authenticated Sites gateway. /companion/redeem uses a one-use 48-bit code expiring in ten minutes and limited redemption attempts. Direct /companion/analyze and /companion/disconnect require a hashed, scoped, expiring device bearer token. Client-supplied workspace headers cannot change the token owner. The shared gateway secret and OpenAI key never enter extension/Windows ZIPs. Free SQLite restarts can invalidate devices as well as reset history. Generated ZIPs are embedded as binary assets by build-worker.cjs; source, not credentials, is distributed.

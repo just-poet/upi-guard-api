@@ -1,5 +1,5 @@
 // ASSETS is injected at build time. API keys exist only in runtime environment bindings.
-const paths=new Set(['/health','/score-payment','/confirm-demo-payment','/review-label','/assessment-action','/assessments','/metrics','/evaluation-results','/pattern-lab/prepare-candidate','/demo-data','/analyze-message','/analyze-qr']);
+const paths=new Set(['/health','/score-payment','/confirm-demo-payment','/review-label','/assessment-action','/assessments','/metrics','/evaluation-results','/pattern-lab/prepare-candidate','/demo-data','/analyze-message','/analyze-qr','/companion/pair','/companion/devices','/companion/revoke']);
 const json=(data,status)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 export default {
  async fetch(request,env){
@@ -32,6 +32,7 @@ export default {
   }
   const asset=ASSETS[url.pathname];
   if(!asset)return new Response('Not found',{status:404});
-  return new Response(request.method==='HEAD'?null:asset.body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin'}});
+  const body=asset.base64?Uint8Array.from(atob(asset.base64),c=>c.charCodeAt(0)):asset.body;
+  return new Response(request.method==='HEAD'?null:body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin',...(asset.filename?{'Content-Disposition':'attachment; filename="'+asset.filename+'"'}:{})}});
  }
 };

@@ -1,9 +1,12 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const types={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','api-client.js':'text/javascript; charset=utf-8','tools.js':'text/javascript; charset=utf-8','vendor/jsQR.js':'text/javascript; charset=utf-8','styles.css':'text/css; charset=utf-8'};
+const cp=require('node:child_process');
+cp.execFileSync(process.platform==='win32'?'py':'python3',[...(process.platform==='win32'?['-3']:[]),path.join(root,'scripts/build-companions.py')],{stdio:'inherit'});
+const types={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','api-client.js':'text/javascript; charset=utf-8','tools.js':'text/javascript; charset=utf-8','companion.js':'text/javascript; charset=utf-8','vendor/jsQR.js':'text/javascript; charset=utf-8','styles.css':'text/css; charset=utf-8'};
 const assets={};
 for(const [name,type]of Object.entries(types))assets[name==='index.html'?'/':'/'+name]={type,body:fs.readFileSync(path.join(root,'dist',name),'utf8')};
+for(const name of ['upi-guard-extension.zip','upi-guard-windows.zip'])assets['/downloads/'+name]={type:'application/zip',base64:fs.readFileSync(path.join(root,'dist/downloads',name)).toString('base64'),filename:name};
 const output='const ASSETS='+JSON.stringify(assets)+';\n'+fs.readFileSync(path.join(root,'site-worker/gateway.mjs'),'utf8');
 fs.mkdirSync(path.join(root,'dist/server'),{recursive:true});
 fs.writeFileSync(path.join(root,'dist/server/index.js'),output);

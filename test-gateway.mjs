@@ -31,6 +31,9 @@ try{
  const html=await(await gateway.fetch(new Request(base+'/'),env)).text();
  assert.ok(html.includes('api-client.js'));assert.ok(!html.includes(env.BACKEND_API_KEY));
  for(const asset of ['/tools.js','/vendor/jsQR.js'])assert.equal((await gateway.fetch(new Request(base+asset),env)).status,200);
+ for(const asset of ['/downloads/upi-guard-extension.zip','/downloads/upi-guard-windows.zip']){
+  const response=await gateway.fetch(new Request(base+asset),env);assert.equal(response.status,200);assert.equal(response.headers.get('Content-Type'),'application/zip');assert.ok(response.headers.get('Content-Disposition').includes('attachment'));const bytes=new Uint8Array(await response.arrayBuffer());assert.equal(String.fromCharCode(...bytes.slice(0,2)),'PK');
+ }
  assert.equal((await gateway.fetch(new Request(base+'/not-an-api'),env)).status,404);
  console.log('PASS gateway identity, secret isolation, path allowlist, missing configuration, and assets');
 }finally{globalThis.fetch=originalFetch;}
