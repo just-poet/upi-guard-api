@@ -1,5 +1,9 @@
 'use strict';
 let messageLink='',messageInspect=true,pairCode=null,connectedDevices=[];
+let quickLinkDraft='',quickMessageDraft='';
+const quickDraftHome=home;
+home=function(){return quickDraftHome().replace('id="quick-link"',`id="quick-link" value="${esc(quickLinkDraft)}"`).replace(/(<textarea[^>]*id="quick-message"[^>]*>)[\s\S]*?(<\/textarea>)/,(_all,start,end)=>start+esc(quickMessageDraft)+end);};
+document.addEventListener('input',event=>{if(event.target.id==='quick-link')quickLinkDraft=event.target.value;if(event.target.id==='quick-message')quickMessageDraft=event.target.value;});
 const plainMessagePage=messagePage;
 messagePage=function(){let html=plainMessagePage();html=html.replace('<div class="form-row"><label class="field-label" for="message-context">',`<div class="form-row"><label class="field-label" for="message-link">${t('Link received with the message','संदेश के साथ मिला लिंक')} <span class="optional">${t('(optional)','(वैकल्पिक)')}</span></label><input id="message-link" maxlength="2048" type="url" placeholder="https://… or upi://pay?…" ${messageBusy?'disabled':''} value="${esc(messageLink)}"><label class="inspect-choice"><input id="message-inspect-link" type="checkbox" ${messageInspect?'checked':''} ${messageBusy?'disabled':''}>${t('Inspect the public page behind this link','इस लिंक का सार्वजनिक पेज पढ़ें')}</label><p class="microcopy">${t('Reads public HTML/text without signing in or running scripts. Do not submit password-reset or private account links.','सार्वजनिक पाठ पढ़ता है; साइन-इन या स्क्रिप्ट नहीं चलती। पासवर्ड रीसेट या निजी खाता लिंक न भेजें।')}</p></div><div class="form-row"><label class="field-label" for="message-context">`);html=html.replace('minlength="3" required','minlength="3"');return html;};
 const messageOnlyAPI=api;
