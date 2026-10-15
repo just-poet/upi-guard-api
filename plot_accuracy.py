@@ -159,5 +159,7 @@ def generate_accuracy_dashboard(json_path="evaluation_results.json", output_png=
     plt.close()
     print(f"[OK] High-resolution accuracy dashboard saved to: {output_png}")
 
+main = generate_accuracy_dashboard
+
 if __name__ == "__main__":
     generate_accuracy_dashboard()

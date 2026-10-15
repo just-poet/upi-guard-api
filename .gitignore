@@ -13,3 +13,4 @@ __pycache__/
 !.env.example
 dist/server/
 .vercel/
+data/web_downloads/

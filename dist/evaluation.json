@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-10-15T13:21:23.194581",
+  "timestamp": "2026-10-15T15:43:24.137988",
   "hardware": "Local CPU Prototype",
   "dataset": {
     "test_transactions": 5912,
     "fraud_prevalence_pct": 10.25
   },
   "overall_metrics": {
-    "accuracy": 98.61,
-    "precision": 88.53,
+    "accuracy": 95.03,
+    "precision": 67.49,
     "recall": 99.34,
-    "false_positive_rate": 1.47,
-    "f1_score": 0.9362,
-    "pr_auc": 0.9797,
-    "roc_auc": 0.9987,
-    "median_latency_ms": 161.0,
-    "p95_latency_ms": 188.5
+    "false_positive_rate": 5.47,
+    "f1_score": 0.8037,
+    "pr_auc": 0.9563,
+    "roc_auc": 0.9962,
+    "median_latency_ms": 183.6,
+    "p95_latency_ms": 199.2
   },
   "confusion_matrix": {
     "true_positives": 602,
-    "false_positives": 78,
+    "false_positives": 290,
     "false_negatives": 4,
-    "true_negatives": 5228
+    "true_negatives": 5016
   },
   "ablation_study": {
     "rules_only": {
@@ -29,14 +29,14 @@
       "fpr": 2.24
     },
     "transaction_only": {
-      "precision": 91.49,
-      "recall": 97.52,
-      "fpr": 1.04
+      "precision": 91.18,
+      "recall": 97.19,
+      "fpr": 1.07
     },
     "full_hybrid": {
-      "precision": 88.53,
+      "precision": 67.49,
       "recall": 99.34,
-      "fpr": 1.47
+      "fpr": 5.47
     }
   },
   "per_scam_recall": {

@@ -6,6 +6,10 @@ services:
     region: singapore
     healthCheckPath: /health
     envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
       - key: UPI_GUARD_REQUIRE_AUTH
         value: "1"
       - key: UPI_GUARD_API_KEY

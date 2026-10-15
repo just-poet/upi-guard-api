@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const types={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','api-client.js':'text/javascript; charset=utf-8','styles.css':'text/css; charset=utf-8'};
+const types={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','api-client.js':'text/javascript; charset=utf-8','tools.js':'text/javascript; charset=utf-8','vendor/jsQR.js':'text/javascript; charset=utf-8','styles.css':'text/css; charset=utf-8'};
 const assets={};
 for(const [name,type]of Object.entries(types))assets[name==='index.html'?'/':'/'+name]={type,body:fs.readFileSync(path.join(root,'dist',name),'utf8')};
 const output='const ASSETS='+JSON.stringify(assets)+';\n'+fs.readFileSync(path.join(root,'site-worker/gateway.mjs'),'utf8');

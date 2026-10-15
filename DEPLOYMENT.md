@@ -26,3 +26,8 @@ Only synthetic payments ending in `@demo` are accepted. New deployment records a
 The evaluation page reads `evaluation_results.json` as the supplied offline evaluation artifact; it does not claim deployment changes were re-evaluated. The supplied candidate is selected for comparison, not retrained or automatically deployed. The supplied artifact reports no original-to-candidate recall gain for the held-out family (100% versus 100%); the UI displays those values without inventing improvement. Feature signals are backend heuristic weights, not SHAP explanations.
 
 The legacy development database uses a different schema and is left intact. Connected requests use `api_assessments`, `api_audit`, and `api_preferences` tables.
+
+
+## Message and QR checks
+
+The backend requires server-only OPENAI_API_KEY and optional OPENAI_MODEL (default gpt-4.1-mini). The deployed secret is configured through Render environment settings; there is no committed/local key file. POST /analyze-message uses the OpenAI Responses API with store=false and validated structured output. It limits attempts per workspace and returns explicit quota, timeout and configuration errors. POST /analyze-qr inspects decoded text without fetching any embedded URL. Camera/upload decoding runs locally with jsQR 1.4.0; its Apache-2.0 license is included under dist/vendor/. New content records participate in history, review labels, metrics, exports and workspace reset. Raw downloaded datasets are excluded from source publication.

@@ -19,10 +19,18 @@ try{
  assert.equal(forwarded.headers.get('x-demo-client-id').length,64);
  assert.notEqual(forwarded.headers.get('x-demo-client-id'),'spoofed-workspace');
  assert.equal(forwarded.redirect,'manual');
+ for(const route of ['/analyze-message','/analyze-qr']){
+  const body=JSON.stringify(route.endsWith('message')?{message:'test message'}:{payload:'https://example.com'});
+  const req=new Request(base+route,{method:'POST',headers:{'oai-authenticated-user-id':'test-user','Content-Type':'application/json'},body});
+  assert.equal((await gateway.fetch(req,env)).status,200);
+  assert.equal(forwarded.url,'https://backend.example'+route);
+  assert.equal(forwarded.body,body);
+ }
  globalThis.fetch=async()=>new Response(null,{status:302,headers:{Location:'https://unrelated.example'}});
  assert.equal((await gateway.fetch(request,env)).status,502);
  const html=await(await gateway.fetch(new Request(base+'/'),env)).text();
  assert.ok(html.includes('api-client.js'));assert.ok(!html.includes(env.BACKEND_API_KEY));
+ for(const asset of ['/tools.js','/vendor/jsQR.js'])assert.equal((await gateway.fetch(new Request(base+asset),env)).status,200);
  assert.equal((await gateway.fetch(new Request(base+'/not-an-api'),env)).status,404);
  console.log('PASS gateway identity, secret isolation, path allowlist, missing configuration, and assets');
 }finally{globalThis.fetch=originalFetch;}

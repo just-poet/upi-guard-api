@@ -10,7 +10,7 @@
     "server": "python server.py",
     "start": "python server.py",
     "start:node": "node server.cjs",
-    "check": "node --check dist/app.js && node --check dist/api-client.js",
+    "check": "node --check dist/app.js && node --check dist/api-client.js && node --check dist/tools.js",
     "build:site": "node scripts/build-worker.cjs",
     "test:backend": "python -m unittest test_backend -v",
     "test:gateway": "node test-gateway.mjs",

@@ -456,6 +456,15 @@ class HybridDecisionEngine:
             category = "Unfamiliar pattern"
             reason = "Job task offer requesting upfront refundable deposit to an unverified recipient."
 
+        # External QR requests have no behavioral history or live bank signals.
+        # Missing inputs cannot establish high transaction risk on their own.
+        elif tx_data.get('source') == 'user':
+            risk_tier = 'medium'
+            category = 'Identity unavailable'
+            reason = 'Recipient identity and behavioral history are unavailable. Verify the request independently.'
+            inferred_facts.append('Behavioral transaction scoring is not used for this request because bank and payment-history inputs are unavailable.')
+            feature_contributions = {}
+
         # Rule 6: High Supervised ML Risk
         elif tx_prob >= self.threshold_warn:
             risk_tier = "high"
@@ -496,8 +505,8 @@ class HybridDecisionEngine:
             "risk_tier": risk_tier,
             "category": category,
             "primary_reason": reason,
-            "ml_fraud_probability": round(tx_prob, 4),
-            "novelty_score": round(novelty_score, 4),
+            "ml_fraud_probability": None if tx_data.get('source') == 'user' else round(tx_prob, 4),
+            "novelty_score": None if tx_data.get('source') == 'user' else round(novelty_score, 4),
             "inferred_intent": inferred_intent,
             "intent_confidence": round(intent_confidence, 4),
             "merchant_status": merchant_status,

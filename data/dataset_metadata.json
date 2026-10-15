@@ -7,5 +7,13 @@
   "test_size": 5912,
   "held_out_job_scam_size": 588,
   "fraud_prevalence_pct": 11.96,
-  "generated_at": "2026-10-15T13:05:27.068740"
+  "generated_at": "2026-10-15T13:05:27.068740",
+  "web_sources_integrated": [
+    "Hugging Face deepakjoshi1606/mock-upi-txn-data (10,000 UPI logs)",
+    "PaySim Mobile Money Transactions (28,213 transactions)",
+    "UCI SMS Spam/Phishing Collection (5,572 authentic messages)"
+  ],
+  "total_train_size": 48388,
+  "total_val_size": 11112,
+  "last_web_ingestion": "2026-10-15T15:41:56.879425"
 }

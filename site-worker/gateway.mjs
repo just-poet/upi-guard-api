@@ -1,5 +1,5 @@
 // ASSETS is injected at build time. API keys exist only in runtime environment bindings.
-const paths=new Set(['/health','/score-payment','/confirm-demo-payment','/review-label','/assessment-action','/assessments','/metrics','/evaluation-results','/pattern-lab/prepare-candidate','/demo-data']);
+const paths=new Set(['/health','/score-payment','/confirm-demo-payment','/review-label','/assessment-action','/assessments','/metrics','/evaluation-results','/pattern-lab/prepare-candidate','/demo-data','/analyze-message','/analyze-qr']);
 const json=(data,status)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 export default {
  async fetch(request,env){
